@@ -1,0 +1,56 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Vampiretab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VampireTooth",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Vampire",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabvampiretab": "Vampire",
+      "advancements.vampire.descr": "become a vampire",
+      "advancements.vampire.title": "Vampire",
+      "item.vampiretooth.name": "Vampire Tooth"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "vampire",
+    "modName": "vampire",
+    "version": "1.0.0",
+    "author": "PROPRIETAIRE, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.vampire",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
