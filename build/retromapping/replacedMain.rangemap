@@ -1,0 +1,1382 @@
+Unsupposrted library path: C:\Users\PROPRIETAIRE\MCreatorWorkspaces\vampire\build\classes\java\api
+Unsupposrted library path: C:\Users\PROPRIETAIRE\MCreatorWorkspaces\vampire\build\resources\api
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "net/mcreator/vampire/ClientProxyVampire.java" md5: 2785225d8bb4d9259c3e7236daed542f
+@|net/mcreator/vampire/ClientProxyVampire.java|8|28|net.mcreator.vampire|package|net.mcreator.vampire|(file)
+Class Start: net.mcreator.vampire.ClientProxyVampire
+   @|net/mcreator/vampire/ClientProxyVampire.java|382|400|ClientProxyVampire|class|net.mcreator.vampire.ClientProxyVampire|false
+   @|net/mcreator/vampire/ClientProxyVampire.java|412|425|IProxyVampire|class|net.mcreator.vampire.IProxyVampire|false
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|482|487|event|param|net.mcreator.vampire.ClientProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ClientProxyVampire.java|431|439|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ClientProxyVampire.java|454|458|init|method|net.mcreator.vampire.IProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|459|481|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|557|562|event|param|net.mcreator.vampire.ClientProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ClientProxyVampire.java|500|508|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ClientProxyVampire.java|523|530|preInit|method|net.mcreator.vampire.IProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|531|556|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|net/mcreator/vampire/ClientProxyVampire.java|569|578|OBJLoader|class|net.minecraftforge.client.model.obj.OBJLoader|false
+      @|net/mcreator/vampire/ClientProxyVampire.java|579|587|INSTANCE|field|net.minecraftforge.client.model.obj.OBJLoader|INSTANCE
+      @|net/mcreator/vampire/ClientProxyVampire.java|588|597|addDomain|method|net.minecraftforge.client.model.obj.OBJLoader|addDomain|(Ljava/lang/String;)V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|678|683|event|param|net.mcreator.vampire.ClientProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ClientProxyVampire.java|619|627|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ClientProxyVampire.java|642|650|postInit|method|net.mcreator.vampire.IProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|651|677|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|753|758|event|param|net.mcreator.vampire.ClientProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|net/mcreator/vampire/ClientProxyVampire.java|696|704|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ClientProxyVampire.java|719|729|serverLoad|method|net.mcreator.vampire.IProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/ClientProxyVampire.java|730|752|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+   Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+Class End  : net.mcreator.vampire.ClientProxyVampire
+endProcessing "net/mcreator/vampire/ClientProxyVampire.java"
+
+startProcessing "net/mcreator/vampire/ElementsVampire.java" md5: 655543fe9012cf09d29ae15c4cb5f27a
+@|net/mcreator/vampire/ElementsVampire.java|128|148|net.mcreator.vampire|package|net.mcreator.vampire|(file)
+Class Start: net.mcreator.vampire.ElementsVampire
+   @|net/mcreator/vampire/ElementsVampire.java|1833|1848|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+   @|net/mcreator/vampire/ElementsVampire.java|1860|1872|IFuelHandler|class|net.minecraftforge.fml.common.IFuelHandler|false
+   @|net/mcreator/vampire/ElementsVampire.java|1874|1889|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator|false
+   @|net/mcreator/vampire/ElementsVampire.java|1912|1922|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   @|net/mcreator/vampire/ElementsVampire.java|1907|1911|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|1907|1911|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|1912|1922|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   @|net/mcreator/vampire/ElementsVampire.java|1924|1932|elements|field|net.mcreator.vampire.ElementsVampire|elements|
+   @|net/mcreator/vampire/ElementsVampire.java|1939|1948|ArrayList|class|java.util.ArrayList|false
+   @|net/mcreator/vampire/ElementsVampire.java|1983|1988|Block|class|net.minecraft.block.Block|false
+   @|net/mcreator/vampire/ElementsVampire.java|1974|1982|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|1969|1973|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|1969|1973|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|1974|1982|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|1983|1988|Block|class|net.minecraft.block.Block|false
+   @|net/mcreator/vampire/ElementsVampire.java|1991|1997|blocks|field|net.mcreator.vampire.ElementsVampire|blocks|
+   @|net/mcreator/vampire/ElementsVampire.java|2004|2013|ArrayList|class|java.util.ArrayList|false
+   @|net/mcreator/vampire/ElementsVampire.java|2048|2052|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/ElementsVampire.java|2039|2047|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2034|2038|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2034|2038|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2039|2047|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2048|2052|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/ElementsVampire.java|2055|2060|items|field|net.mcreator.vampire.ElementsVampire|items|
+   @|net/mcreator/vampire/ElementsVampire.java|2067|2076|ArrayList|class|java.util.ArrayList|false
+   @|net/mcreator/vampire/ElementsVampire.java|2111|2116|Biome|class|net.minecraft.world.biome.Biome|false
+   @|net/mcreator/vampire/ElementsVampire.java|2102|2110|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2097|2101|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2097|2101|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2102|2110|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2111|2116|Biome|class|net.minecraft.world.biome.Biome|false
+   @|net/mcreator/vampire/ElementsVampire.java|2119|2125|biomes|field|net.mcreator.vampire.ElementsVampire|biomes|
+   @|net/mcreator/vampire/ElementsVampire.java|2132|2141|ArrayList|class|java.util.ArrayList|false
+   @|net/mcreator/vampire/ElementsVampire.java|2176|2187|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+   @|net/mcreator/vampire/ElementsVampire.java|2167|2175|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2162|2166|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2162|2166|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2167|2175|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2176|2187|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+   @|net/mcreator/vampire/ElementsVampire.java|2190|2198|entities|field|net.mcreator.vampire.ElementsVampire|entities|
+   @|net/mcreator/vampire/ElementsVampire.java|2205|2214|ArrayList|class|java.util.ArrayList|false
+   @|net/mcreator/vampire/ElementsVampire.java|2249|2255|Potion|class|net.minecraft.potion.Potion|false
+   @|net/mcreator/vampire/ElementsVampire.java|2240|2248|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2235|2239|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2235|2239|List|class|java.util.List|false
+   @|net/mcreator/vampire/ElementsVampire.java|2240|2248|Supplier|class|java.util.function.Supplier|false
+   @|net/mcreator/vampire/ElementsVampire.java|2249|2255|Potion|class|net.minecraft.potion.Potion|false
+   @|net/mcreator/vampire/ElementsVampire.java|2258|2265|potions|field|net.mcreator.vampire.ElementsVampire|potions|
+   @|net/mcreator/vampire/ElementsVampire.java|2272|2281|ArrayList|class|java.util.ArrayList|false
+   @|net/mcreator/vampire/ElementsVampire.java|2307|2323|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|net/mcreator/vampire/ElementsVampire.java|2325|2354|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+   @|net/mcreator/vampire/ElementsVampire.java|2303|2306|Map|class|java.util.Map|false
+   @|net/mcreator/vampire/ElementsVampire.java|2303|2306|Map|class|java.util.Map|false
+   @|net/mcreator/vampire/ElementsVampire.java|2307|2323|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|net/mcreator/vampire/ElementsVampire.java|2325|2354|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+   @|net/mcreator/vampire/ElementsVampire.java|2356|2362|sounds|field|net.mcreator.vampire.ElementsVampire|sounds|
+   @|net/mcreator/vampire/ElementsVampire.java|2369|2376|HashMap|class|java.util.HashMap|false
+   Method Start: ElementsVampire()V
+      @|net/mcreator/vampire/ElementsVampire.java|2391|2406|ElementsVampire|method|net.mcreator.vampire.ElementsVampire|ElementsVampire|()V
+   Method End: ElementsVampire()V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/ElementsVampire.java|2465|2470|event|param|net.mcreator.vampire.ElementsVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|2431|2438|preInit|method|net.mcreator.vampire.ElementsVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/ElementsVampire.java|2439|2464|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|2492|2512|ASMDataTable.ASMData|class|net.minecraftforge.fml.common.discovery.ASMDataTable.ASMData|false
+      @|net/mcreator/vampire/ElementsVampire.java|2523|2528|event|param|net.mcreator.vampire.ElementsVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|2529|2539|getAsmData|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getAsmData|()Lnet/minecraftforge/fml/common/discovery/ASMDataTable;
+      @|net/mcreator/vampire/ElementsVampire.java|2542|2548|getAll|method|net.minecraftforge.fml.common.discovery.ASMDataTable|getAll|(Ljava/lang/String;)Ljava/util/Set;
+      @|net/mcreator/vampire/ElementsVampire.java|2549|2563|ModElement.Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+      @|net/mcreator/vampire/ElementsVampire.java|2570|2577|getName|method|java.lang.Class|getName|()Ljava/lang/String;
+      @|net/mcreator/vampire/ElementsVampire.java|2589|2594|Class|class|java.lang.Class|false
+      @|net/mcreator/vampire/ElementsVampire.java|2606|2611|Class|class|java.lang.Class|false
+      @|net/mcreator/vampire/ElementsVampire.java|2612|2619|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|net/mcreator/vampire/ElementsVampire.java|2628|2640|getClassName|method|net.minecraftforge.fml.common.discovery.ASMDataTable.ASMData|getClassName|()Ljava/lang/String;
+      @|net/mcreator/vampire/ElementsVampire.java|2660|2673|getSuperclass|method|java.lang.Class|getSuperclass|()Ljava/lang/Class;
+      @|net/mcreator/vampire/ElementsVampire.java|2679|2705|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      @|net/mcreator/vampire/ElementsVampire.java|2719|2727|elements|field|net.mcreator.vampire.ElementsVampire|elements
+      @|net/mcreator/vampire/ElementsVampire.java|2728|2731|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/vampire/ElementsVampire.java|2733|2759|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      @|net/mcreator/vampire/ElementsVampire.java|2767|2781|getConstructor|method|java.lang.Class|getConstructor|([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+      @|net/mcreator/vampire/ElementsVampire.java|2787|2795|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+      @|net/mcreator/vampire/ElementsVampire.java|2799|2810|newInstance|method|java.lang.reflect.Constructor|newInstance|([Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/vampire/ElementsVampire.java|2837|2846|Exception|class|java.lang.Exception|false
+      @|net/mcreator/vampire/ElementsVampire.java|2858|2873|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|net/mcreator/vampire/ElementsVampire.java|2885|2896|Collections|class|java.util.Collections|false
+      @|net/mcreator/vampire/ElementsVampire.java|2897|2901|sort|method|java.util.Collections|sort|(Ljava/util/List;)V
+      @|net/mcreator/vampire/ElementsVampire.java|2902|2910|elements|field|net.mcreator.vampire.ElementsVampire|elements
+      @|net/mcreator/vampire/ElementsVampire.java|2916|2924|elements|field|net.mcreator.vampire.ElementsVampire|elements
+      @|net/mcreator/vampire/ElementsVampire.java|2925|2932|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|net/mcreator/vampire/ElementsVampire.java|2933|2959|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      @|net/mcreator/vampire/ElementsVampire.java|2961|2973|initElements|method|net.mcreator.vampire.ElementsVampire.ModElement|initElements|()V
+      @|net/mcreator/vampire/ElementsVampire.java|2984|3001|addNetworkMessage|method|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3002|3051|VampireVariables.WorldSavedDataSyncMessageHandler|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|false
+      @|net/mcreator/vampire/ElementsVampire.java|3059|3101|VampireVariables.WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      @|net/mcreator/vampire/ElementsVampire.java|3109|3113|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/ElementsVampire.java|3114|3120|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+      @|net/mcreator/vampire/ElementsVampire.java|3127|3131|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/ElementsVampire.java|3132|3138|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3230|3235|event|param|net.mcreator.vampire.ElementsVampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|3161|3175|registerSounds|method|net.mcreator.vampire.ElementsVampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3176|3198|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/ElementsVampire.java|3199|3228|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|3247|3256|Map.Entry|class|java.util.Map.Entry|false
+      @|net/mcreator/vampire/ElementsVampire.java|3257|3273|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|net/mcreator/vampire/ElementsVampire.java|3275|3304|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|3314|3320|sounds|field|net.mcreator.vampire.ElementsVampire|sounds
+      @|net/mcreator/vampire/ElementsVampire.java|3321|3329|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|net/mcreator/vampire/ElementsVampire.java|3337|3342|event|param|net.mcreator.vampire.ElementsVampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|3343|3354|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|net/mcreator/vampire/ElementsVampire.java|3357|3365|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3372|3380|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|net/mcreator/vampire/ElementsVampire.java|3383|3398|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net/mcreator/vampire/ElementsVampire.java|3405|3411|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+   Method End: registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3465|3471|random|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/mcreator/vampire/ElementsVampire.java|3477|3483|chunkX|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net/mcreator/vampire/ElementsVampire.java|3489|3495|chunkZ|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net/mcreator/vampire/ElementsVampire.java|3503|3508|world|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/mcreator/vampire/ElementsVampire.java|3526|3528|cg|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|4
+      @|net/mcreator/vampire/ElementsVampire.java|3545|3547|cp|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|5
+      @|net/mcreator/vampire/ElementsVampire.java|3426|3434|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ElementsVampire.java|3449|3457|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3458|3464|Random|class|java.util.Random|false
+      @|net/mcreator/vampire/ElementsVampire.java|3497|3502|World|class|net.minecraft.world.World|false
+      @|net/mcreator/vampire/ElementsVampire.java|3510|3525|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+      @|net/mcreator/vampire/ElementsVampire.java|3530|3544|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+      @|net/mcreator/vampire/ElementsVampire.java|3554|3562|elements|field|net.mcreator.vampire.ElementsVampire|elements
+      @|net/mcreator/vampire/ElementsVampire.java|3563|3570|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3582|3589|element|param|java.util.function.Consumer<net.mcreator.vampire.ElementsVampire.ModElement>|accept|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)V|element|-1
+      @|net/mcreator/vampire/ElementsVampire.java|3590|3603|generateWorld|method|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3604|3610|random|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/mcreator/vampire/ElementsVampire.java|3612|3618|chunkX|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net/mcreator/vampire/ElementsVampire.java|3625|3631|chunkZ|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net/mcreator/vampire/ElementsVampire.java|3638|3643|world|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/mcreator/vampire/ElementsVampire.java|3645|3650|world|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/mcreator/vampire/ElementsVampire.java|3651|3659|provider|field|net.minecraft.world.World|provider
+      @|net/mcreator/vampire/ElementsVampire.java|3660|3672|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      @|net/mcreator/vampire/ElementsVampire.java|3676|3678|cg|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|4
+      @|net/mcreator/vampire/ElementsVampire.java|3680|3682|cp|param|net.mcreator.vampire.ElementsVampire|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|5
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: getBurnTime(Lnet/minecraft/item/ItemStack;)I
+      @|net/mcreator/vampire/ElementsVampire.java|3739|3743|fuel|param|net.mcreator.vampire.ElementsVampire|getBurnTime|(Lnet/minecraft/item/ItemStack;)I|fuel|0
+      @|net/mcreator/vampire/ElementsVampire.java|3695|3703|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ElementsVampire.java|3717|3728|getBurnTime|method|net.minecraftforge.fml.common.IFuelHandler|getBurnTime|(Lnet/minecraft/item/ItemStack;)I
+      @|net/mcreator/vampire/ElementsVampire.java|3729|3738|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|net/mcreator/vampire/ElementsVampire.java|3755|3765|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      @|net/mcreator/vampire/ElementsVampire.java|3776|3784|elements|field|net.mcreator.vampire.ElementsVampire|elements
+      @|net/mcreator/vampire/ElementsVampire.java|3810|3817|addFuel|method|net.mcreator.vampire.ElementsVampire.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I
+      @|net/mcreator/vampire/ElementsVampire.java|3818|3822|fuel|param|net.mcreator.vampire.ElementsVampire|getBurnTime|(Lnet/minecraft/item/ItemStack;)I|fuel|0
+   Method End: getBurnTime(Lnet/minecraft/item/ItemStack;)I
+   Method Start: onPlayerLoggedIn(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+      @|net/mcreator/vampire/ElementsVampire.java|4005|4010|event|param|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|3887|3901|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|3916|3932|onPlayerLoggedIn|method|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+      @|net/mcreator/vampire/ElementsVampire.java|3933|4004|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|4022|4027|event|param|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4028|4034|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|net/mcreator/vampire/ElementsVampire.java|4035|4040|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/vampire/ElementsVampire.java|4041|4049|isRemote|field|net.minecraft.world.World|isRemote
+      @|net/mcreator/vampire/ElementsVampire.java|4057|4071|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/ElementsVampire.java|4082|4111|VampireVariables.MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+      @|net/mcreator/vampire/ElementsVampire.java|4112|4115|get|method|net.mcreator.vampire.VampireVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;
+      @|net/mcreator/vampire/ElementsVampire.java|4116|4121|event|param|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4122|4128|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|net/mcreator/vampire/ElementsVampire.java|4129|4134|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/vampire/ElementsVampire.java|4141|4155|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/ElementsVampire.java|4168|4199|VampireVariables.WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+      @|net/mcreator/vampire/ElementsVampire.java|4200|4203|get|method|net.mcreator.vampire.VampireVariables.WorldVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;
+      @|net/mcreator/vampire/ElementsVampire.java|4204|4209|event|param|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4210|4216|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|net/mcreator/vampire/ElementsVampire.java|4217|4222|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/vampire/ElementsVampire.java|4255|4262|Vampire|class|net.mcreator.vampire.Vampire|false
+      @|net/mcreator/vampire/ElementsVampire.java|4263|4277|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+      @|net/mcreator/vampire/ElementsVampire.java|4278|4284|sendTo|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendTo|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|net/mcreator/vampire/ElementsVampire.java|4289|4331|VampireVariables.WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      @|net/mcreator/vampire/ElementsVampire.java|4346|4360|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/ElementsVampire.java|4362|4367|event|param|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4368|4374|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|net/mcreator/vampire/ElementsVampire.java|4409|4416|Vampire|class|net.mcreator.vampire.Vampire|false
+      @|net/mcreator/vampire/ElementsVampire.java|4417|4431|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+      @|net/mcreator/vampire/ElementsVampire.java|4432|4438|sendTo|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendTo|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|net/mcreator/vampire/ElementsVampire.java|4443|4485|VampireVariables.WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      @|net/mcreator/vampire/ElementsVampire.java|4502|4516|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/ElementsVampire.java|4518|4523|event|param|net.mcreator.vampire.ElementsVampire|onPlayerLoggedIn|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4524|4530|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+   Method End: onPlayerLoggedIn(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+   Method Start: onPlayerChangedDimension(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V
+      @|net/mcreator/vampire/ElementsVampire.java|4681|4686|event|param|net.mcreator.vampire.ElementsVampire|onPlayerChangedDimension|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4547|4561|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|4576|4600|onPlayerChangedDimension|method|net.mcreator.vampire.ElementsVampire|onPlayerChangedDimension|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V
+      @|net/mcreator/vampire/ElementsVampire.java|4601|4680|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerChangedDimensionEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerChangedDimensionEvent|false
+      @|net/mcreator/vampire/ElementsVampire.java|4698|4703|event|param|net.mcreator.vampire.ElementsVampire|onPlayerChangedDimension|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4704|4710|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|net/mcreator/vampire/ElementsVampire.java|4711|4716|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/vampire/ElementsVampire.java|4717|4725|isRemote|field|net.minecraft.world.World|isRemote
+      @|net/mcreator/vampire/ElementsVampire.java|4733|4747|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/ElementsVampire.java|4760|4791|VampireVariables.WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+      @|net/mcreator/vampire/ElementsVampire.java|4792|4795|get|method|net.mcreator.vampire.VampireVariables.WorldVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;
+      @|net/mcreator/vampire/ElementsVampire.java|4796|4801|event|param|net.mcreator.vampire.ElementsVampire|onPlayerChangedDimension|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4802|4808|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|net/mcreator/vampire/ElementsVampire.java|4809|4814|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/vampire/ElementsVampire.java|4849|4856|Vampire|class|net.mcreator.vampire.Vampire|false
+      @|net/mcreator/vampire/ElementsVampire.java|4857|4871|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+      @|net/mcreator/vampire/ElementsVampire.java|4872|4878|sendTo|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendTo|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|net/mcreator/vampire/ElementsVampire.java|4883|4925|VampireVariables.WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      @|net/mcreator/vampire/ElementsVampire.java|4942|4956|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/ElementsVampire.java|4958|4963|event|param|net.mcreator.vampire.ElementsVampire|onPlayerChangedDimension|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V|event|0
+      @|net/mcreator/vampire/ElementsVampire.java|4964|4970|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+   Method End: onPlayerChangedDimension(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V
+   @|net/mcreator/vampire/ElementsVampire.java|4996|5005|messageID|field|net.mcreator.vampire.ElementsVampire|messageID|
+   Method Start: addNetworkMessage(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V
+      @|net/mcreator/vampire/ElementsVampire.java|5123|5130|handler|param|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V|handler|0
+      @|net/mcreator/vampire/ElementsVampire.java|5141|5153|messageClass|param|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V|messageClass|1
+      @|net/mcreator/vampire/ElementsVampire.java|5167|5172|sides|param|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V|sides|2
+      @|net/mcreator/vampire/ElementsVampire.java|5031|5039|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      @|net/mcreator/vampire/ElementsVampire.java|5051|5059|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      @|net/mcreator/vampire/ElementsVampire.java|5066|5083|addNetworkMessage|method|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V
+      @|net/mcreator/vampire/ElementsVampire.java|5084|5089|Class|class|java.lang.Class|false
+      @|net/mcreator/vampire/ElementsVampire.java|5100|5115|IMessageHandler|class|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|false
+      @|net/mcreator/vampire/ElementsVampire.java|5132|5137|Class|class|java.lang.Class|false
+      @|net/mcreator/vampire/ElementsVampire.java|5159|5163|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/ElementsVampire.java|5184|5188|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/ElementsVampire.java|5196|5201|sides|param|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V|sides|2
+      @|net/mcreator/vampire/ElementsVampire.java|5207|5214|Vampire|class|net.mcreator.vampire.Vampire|false
+      @|net/mcreator/vampire/ElementsVampire.java|5215|5229|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+      @|net/mcreator/vampire/ElementsVampire.java|5230|5245|registerMessage|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|registerMessage|(Ljava/lang/Class;Ljava/lang/Class;ILnet/minecraftforge/fml/relauncher/Side;)V
+      @|net/mcreator/vampire/ElementsVampire.java|5246|5253|handler|param|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V|handler|0
+      @|net/mcreator/vampire/ElementsVampire.java|5255|5267|messageClass|param|net.mcreator.vampire.ElementsVampire|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V|messageClass|1
+      @|net/mcreator/vampire/ElementsVampire.java|5269|5278|messageID|field|net.mcreator.vampire.ElementsVampire|messageID
+      @|net/mcreator/vampire/ElementsVampire.java|5290|5299|messageID|field|net.mcreator.vampire.ElementsVampire|messageID
+   Method End: addNetworkMessage(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V
+   Class Start: net.mcreator.vampire.ElementsVampire.GuiHandler
+      @|net/mcreator/vampire/ElementsVampire.java|5329|5339|GuiHandler|class|net.mcreator.vampire.ElementsVampire.GuiHandler|false
+      @|net/mcreator/vampire/ElementsVampire.java|5351|5362|IGuiHandler|class|net.minecraftforge.fml.common.network.IGuiHandler|false
+      Method Start: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+         @|net/mcreator/vampire/ElementsVampire.java|5419|5421|id|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
+         @|net/mcreator/vampire/ElementsVampire.java|5436|5442|player|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+         @|net/mcreator/vampire/ElementsVampire.java|5450|5455|world|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+         @|net/mcreator/vampire/ElementsVampire.java|5461|5462|x|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+         @|net/mcreator/vampire/ElementsVampire.java|5468|5469|y|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+         @|net/mcreator/vampire/ElementsVampire.java|5475|5476|z|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+         @|net/mcreator/vampire/ElementsVampire.java|5369|5377|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/ElementsVampire.java|5388|5394|Object|class|java.lang.Object|false
+         @|net/mcreator/vampire/ElementsVampire.java|5395|5414|getServerGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+         @|net/mcreator/vampire/ElementsVampire.java|5423|5435|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/vampire/ElementsVampire.java|5444|5449|World|class|net.minecraft.world.World|false
+      Method End: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      Method Start: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+         @|net/mcreator/vampire/ElementsVampire.java|5558|5560|id|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
+         @|net/mcreator/vampire/ElementsVampire.java|5575|5581|player|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+         @|net/mcreator/vampire/ElementsVampire.java|5589|5594|world|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+         @|net/mcreator/vampire/ElementsVampire.java|5600|5601|x|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+         @|net/mcreator/vampire/ElementsVampire.java|5607|5608|y|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+         @|net/mcreator/vampire/ElementsVampire.java|5614|5615|z|param|net.mcreator.vampire.ElementsVampire.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+         @|net/mcreator/vampire/ElementsVampire.java|5508|5516|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/ElementsVampire.java|5527|5533|Object|class|java.lang.Object|false
+         @|net/mcreator/vampire/ElementsVampire.java|5534|5553|getClientGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+         @|net/mcreator/vampire/ElementsVampire.java|5562|5574|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/vampire/ElementsVampire.java|5583|5588|World|class|net.minecraft.world.World|false
+      Method End: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+   Class End  : net.mcreator.vampire.ElementsVampire.GuiHandler
+   Method Start: getElements()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5654|5658|List|class|java.util.List|false
+      @|net/mcreator/vampire/ElementsVampire.java|5659|5669|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      @|net/mcreator/vampire/ElementsVampire.java|5671|5682|getElements|method|net.mcreator.vampire.ElementsVampire|getElements|()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5697|5705|elements|field|net.mcreator.vampire.ElementsVampire|elements
+   Method End: getElements()Ljava/util/List;
+   Method Start: getBlocks()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5722|5726|List|class|java.util.List|false
+      @|net/mcreator/vampire/ElementsVampire.java|5727|5735|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/ElementsVampire.java|5736|5741|Block|class|net.minecraft.block.Block|false
+      @|net/mcreator/vampire/ElementsVampire.java|5744|5753|getBlocks|method|net.mcreator.vampire.ElementsVampire|getBlocks|()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5768|5774|blocks|field|net.mcreator.vampire.ElementsVampire|blocks
+   Method End: getBlocks()Ljava/util/List;
+   Method Start: getItems()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5791|5795|List|class|java.util.List|false
+      @|net/mcreator/vampire/ElementsVampire.java|5796|5804|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/ElementsVampire.java|5805|5809|Item|class|net.minecraft.item.Item|false
+      @|net/mcreator/vampire/ElementsVampire.java|5812|5820|getItems|method|net.mcreator.vampire.ElementsVampire|getItems|()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5835|5840|items|field|net.mcreator.vampire.ElementsVampire|items
+   Method End: getItems()Ljava/util/List;
+   Method Start: getBiomes()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5857|5861|List|class|java.util.List|false
+      @|net/mcreator/vampire/ElementsVampire.java|5862|5870|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/ElementsVampire.java|5871|5876|Biome|class|net.minecraft.world.biome.Biome|false
+      @|net/mcreator/vampire/ElementsVampire.java|5879|5888|getBiomes|method|net.mcreator.vampire.ElementsVampire|getBiomes|()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5903|5909|biomes|field|net.mcreator.vampire.ElementsVampire|biomes
+   Method End: getBiomes()Ljava/util/List;
+   Method Start: getEntities()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5926|5930|List|class|java.util.List|false
+      @|net/mcreator/vampire/ElementsVampire.java|5931|5939|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/ElementsVampire.java|5940|5951|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|net/mcreator/vampire/ElementsVampire.java|5954|5965|getEntities|method|net.mcreator.vampire.ElementsVampire|getEntities|()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|5980|5988|entities|field|net.mcreator.vampire.ElementsVampire|entities
+   Method End: getEntities()Ljava/util/List;
+   Method Start: getPotions()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|6005|6009|List|class|java.util.List|false
+      @|net/mcreator/vampire/ElementsVampire.java|6010|6018|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/ElementsVampire.java|6019|6025|Potion|class|net.minecraft.potion.Potion|false
+      @|net/mcreator/vampire/ElementsVampire.java|6028|6038|getPotions|method|net.mcreator.vampire.ElementsVampire|getPotions|()Ljava/util/List;
+      @|net/mcreator/vampire/ElementsVampire.java|6053|6060|potions|field|net.mcreator.vampire.ElementsVampire|potions
+   Method End: getPotions()Ljava/util/List;
+   Class Start: net.mcreator.vampire.ElementsVampire.ModElement
+      @|net/mcreator/vampire/ElementsVampire.java|6088|6098|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      @|net/mcreator/vampire/ElementsVampire.java|6110|6120|Comparable|class|java.lang.Comparable|false
+      @|net/mcreator/vampire/ElementsVampire.java|6121|6131|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+      Annotation Start: net.mcreator.vampire.ElementsVampire.ModElement.Tag
+         @|net/mcreator/vampire/ElementsVampire.java|6139|6148|Retention|class|java.lang.annotation.Retention|false
+         @|net/mcreator/vampire/ElementsVampire.java|6149|6164|RetentionPolicy|class|java.lang.annotation.RetentionPolicy|false
+         @|net/mcreator/vampire/ElementsVampire.java|6165|6172|RUNTIME|field|java.lang.annotation.RetentionPolicy|RUNTIME
+         @|net/mcreator/vampire/ElementsVampire.java|6195|6198|Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+         Annotation End  : net.mcreator.vampire.ElementsVampire.ModElement.Tag
+      @|net/mcreator/vampire/ElementsVampire.java|6225|6240|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/ElementsVampire.java|6225|6240|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/ElementsVampire.java|6241|6249|elements|field|net.mcreator.vampire.ElementsVampire.ModElement|elements|
+      @|net/mcreator/vampire/ElementsVampire.java|6274|6280|sortid|field|net.mcreator.vampire.ElementsVampire.ModElement|sortid|
+      Method Start: ModElement(Lnet/mcreator/vampire/ElementsVampire;I)V
+         @|net/mcreator/vampire/ElementsVampire.java|6319|6327|elements|param|net.mcreator.vampire.ElementsVampire.ModElement|ModElement|(Lnet/mcreator/vampire/ElementsVampire;I)V|elements|0
+         @|net/mcreator/vampire/ElementsVampire.java|6333|6339|sortid|param|net.mcreator.vampire.ElementsVampire.ModElement|ModElement|(Lnet/mcreator/vampire/ElementsVampire;I)V|sortid|1
+         @|net/mcreator/vampire/ElementsVampire.java|6292|6302|ModElement|method|net.mcreator.vampire.ElementsVampire.ModElement|ModElement|(Lnet/mcreator/vampire/ElementsVampire;I)V
+         @|net/mcreator/vampire/ElementsVampire.java|6303|6318|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+         @|net/mcreator/vampire/ElementsVampire.java|6352|6360|elements|field|net.mcreator.vampire.ElementsVampire.ModElement|elements
+         @|net/mcreator/vampire/ElementsVampire.java|6363|6371|elements|param|net.mcreator.vampire.ElementsVampire.ModElement|ModElement|(Lnet/mcreator/vampire/ElementsVampire;I)V|elements|0
+         @|net/mcreator/vampire/ElementsVampire.java|6382|6388|sortid|field|net.mcreator.vampire.ElementsVampire.ModElement|sortid
+         @|net/mcreator/vampire/ElementsVampire.java|6391|6397|sortid|param|net.mcreator.vampire.ElementsVampire.ModElement|ModElement|(Lnet/mcreator/vampire/ElementsVampire;I)V|sortid|1
+      Method End: ModElement(Lnet/mcreator/vampire/ElementsVampire;I)V
+      Method Start: initElements()V
+         @|net/mcreator/vampire/ElementsVampire.java|6421|6433|initElements|method|net.mcreator.vampire.ElementsVampire.ModElement|initElements|()V
+      Method End: initElements()V
+      Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6488|6493|event|param|net.mcreator.vampire.ElementsVampire.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+         @|net/mcreator/vampire/ElementsVampire.java|6460|6464|init|method|net.mcreator.vampire.ElementsVampire.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6465|6487|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6553|6558|event|param|net.mcreator.vampire.ElementsVampire.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+         @|net/mcreator/vampire/ElementsVampire.java|6519|6526|preInit|method|net.mcreator.vampire.ElementsVampire.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6527|6552|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      Method Start: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6605|6611|random|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+         @|net/mcreator/vampire/ElementsVampire.java|6617|6621|posX|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|posX|1
+         @|net/mcreator/vampire/ElementsVampire.java|6627|6631|posZ|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|posZ|2
+         @|net/mcreator/vampire/ElementsVampire.java|6639|6644|world|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+         @|net/mcreator/vampire/ElementsVampire.java|6650|6655|dimID|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
+         @|net/mcreator/vampire/ElementsVampire.java|6673|6675|cg|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|5
+         @|net/mcreator/vampire/ElementsVampire.java|6692|6694|cp|param|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|6
+         @|net/mcreator/vampire/ElementsVampire.java|6584|6597|generateWorld|method|net.mcreator.vampire.ElementsVampire.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6598|6604|Random|class|java.util.Random|false
+         @|net/mcreator/vampire/ElementsVampire.java|6633|6638|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/ElementsVampire.java|6657|6672|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+         @|net/mcreator/vampire/ElementsVampire.java|6677|6691|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+      Method End: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6754|6759|event|param|net.mcreator.vampire.ElementsVampire.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+         @|net/mcreator/vampire/ElementsVampire.java|6720|6730|serverLoad|method|net.mcreator.vampire.ElementsVampire.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6731|6753|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+      Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6819|6824|event|param|net.mcreator.vampire.ElementsVampire.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+         @|net/mcreator/vampire/ElementsVampire.java|6785|6799|registerModels|method|net.mcreator.vampire.ElementsVampire.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|net/mcreator/vampire/ElementsVampire.java|6800|6818|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      Method Start: addFuel(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/ElementsVampire.java|6867|6871|fuel|param|net.mcreator.vampire.ElementsVampire.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I|fuel|0
+         @|net/mcreator/vampire/ElementsVampire.java|6849|6856|addFuel|method|net.mcreator.vampire.ElementsVampire.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/ElementsVampire.java|6857|6866|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: addFuel(Lnet/minecraft/item/ItemStack;)I
+      Method Start: compareTo(Lnet/mcreator/vampire/ElementsVampire$ModElement;)I
+         @|net/mcreator/vampire/ElementsVampire.java|6944|6949|other|param|net.mcreator.vampire.ElementsVampire.ModElement|compareTo|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)I|other|0
+         @|net/mcreator/vampire/ElementsVampire.java|6900|6908|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/ElementsVampire.java|6923|6932|compareTo|method|java.lang.Comparable|compareTo|(Ljava/lang/Object;)I
+         @|net/mcreator/vampire/ElementsVampire.java|6933|6943|ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+         @|net/mcreator/vampire/ElementsVampire.java|6969|6975|sortid|field|net.mcreator.vampire.ElementsVampire.ModElement|sortid
+         @|net/mcreator/vampire/ElementsVampire.java|6978|6983|other|param|net.mcreator.vampire.ElementsVampire.ModElement|compareTo|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)I|other|0
+         @|net/mcreator/vampire/ElementsVampire.java|6984|6990|sortid|field|net.mcreator.vampire.ElementsVampire.ModElement|sortid
+      Method End: compareTo(Lnet/mcreator/vampire/ElementsVampire$ModElement;)I
+   Class End  : net.mcreator.vampire.ElementsVampire.ModElement
+Class End  : net.mcreator.vampire.ElementsVampire
+endProcessing "net/mcreator/vampire/ElementsVampire.java"
+
+startProcessing "net/mcreator/vampire/IProxyVampire.java" md5: 0290c6a8a34aa9269e65d47937a665fe
+@|net/mcreator/vampire/IProxyVampire.java|8|28|net.mcreator.vampire|package|net.mcreator.vampire|(file)
+Class Start: net.mcreator.vampire.IProxyVampire
+   @|net/mcreator/vampire/IProxyVampire.java|331|344|IProxyVampire|class|net.mcreator.vampire.IProxyVampire|false
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|388|393|event|param|net.mcreator.vampire.IProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/IProxyVampire.java|354|361|preInit|method|net.mcreator.vampire.IProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|362|387|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|433|438|event|param|net.mcreator.vampire.IProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/IProxyVampire.java|405|409|init|method|net.mcreator.vampire.IProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|410|432|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|486|491|event|param|net.mcreator.vampire.IProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/IProxyVampire.java|450|458|postInit|method|net.mcreator.vampire.IProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|459|485|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|537|542|event|param|net.mcreator.vampire.IProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|net/mcreator/vampire/IProxyVampire.java|503|513|serverLoad|method|net.mcreator.vampire.IProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/IProxyVampire.java|514|536|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+   Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+Class End  : net.mcreator.vampire.IProxyVampire
+endProcessing "net/mcreator/vampire/IProxyVampire.java"
+
+startProcessing "net/mcreator/vampire/ServerProxyVampire.java" md5: 2ebd8a1972fd6491aed02a3a8243e077
+@|net/mcreator/vampire/ServerProxyVampire.java|8|28|net.mcreator.vampire|package|net.mcreator.vampire|(file)
+Class Start: net.mcreator.vampire.ServerProxyVampire
+   @|net/mcreator/vampire/ServerProxyVampire.java|327|345|ServerProxyVampire|class|net.mcreator.vampire.ServerProxyVampire|false
+   @|net/mcreator/vampire/ServerProxyVampire.java|357|370|IProxyVampire|class|net.mcreator.vampire.IProxyVampire|false
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|433|438|event|param|net.mcreator.vampire.ServerProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ServerProxyVampire.java|376|384|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ServerProxyVampire.java|399|406|preInit|method|net.mcreator.vampire.IProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|407|432|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|502|507|event|param|net.mcreator.vampire.ServerProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ServerProxyVampire.java|451|459|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ServerProxyVampire.java|474|478|init|method|net.mcreator.vampire.IProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|479|501|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|579|584|event|param|net.mcreator.vampire.ServerProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/ServerProxyVampire.java|520|528|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ServerProxyVampire.java|543|551|postInit|method|net.mcreator.vampire.IProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|552|578|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|654|659|event|param|net.mcreator.vampire.ServerProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|net/mcreator/vampire/ServerProxyVampire.java|597|605|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/ServerProxyVampire.java|620|630|serverLoad|method|net.mcreator.vampire.IProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/ServerProxyVampire.java|631|653|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+   Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+Class End  : net.mcreator.vampire.ServerProxyVampire
+endProcessing "net/mcreator/vampire/ServerProxyVampire.java"
+
+startProcessing "net/mcreator/vampire/Vampire.java" md5: 6d72a18fd044299d8bf0be7f4f501402
+@|net/mcreator/vampire/Vampire.java|740|760|net.mcreator.vampire|package|net.mcreator.vampire|(file)
+Class Start: net.mcreator.vampire.Vampire
+   @|net/mcreator/vampire/Vampire.java|1964|1967|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|net/mcreator/vampire/Vampire.java|1968|1973|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net/mcreator/vampire/Vampire.java|1976|1983|Vampire|class|net.mcreator.vampire.Vampire|false
+   @|net/mcreator/vampire/Vampire.java|1984|1989|MODID|field|net.mcreator.vampire.Vampire|MODID
+   @|net/mcreator/vampire/Vampire.java|1991|1998|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net/mcreator/vampire/Vampire.java|2001|2008|Vampire|class|net.mcreator.vampire.Vampire|false
+   @|net/mcreator/vampire/Vampire.java|2009|2016|VERSION|field|net.mcreator.vampire.Vampire|VERSION
+   @|net/mcreator/vampire/Vampire.java|2032|2039|Vampire|class|net.mcreator.vampire.Vampire|false
+   @|net/mcreator/vampire/Vampire.java|2064|2070|String|class|java.lang.String|false
+   @|net/mcreator/vampire/Vampire.java|2064|2070|String|class|java.lang.String|false
+   @|net/mcreator/vampire/Vampire.java|2071|2076|MODID|field|net.mcreator.vampire.Vampire|MODID|
+   @|net/mcreator/vampire/Vampire.java|2112|2118|String|class|java.lang.String|false
+   @|net/mcreator/vampire/Vampire.java|2112|2118|String|class|java.lang.String|false
+   @|net/mcreator/vampire/Vampire.java|2119|2126|VERSION|field|net.mcreator.vampire.Vampire|VERSION|
+   @|net/mcreator/vampire/Vampire.java|2160|2180|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|false
+   @|net/mcreator/vampire/Vampire.java|2160|2180|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|false
+   @|net/mcreator/vampire/Vampire.java|2181|2195|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER|
+   @|net/mcreator/vampire/Vampire.java|2198|2213|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry|false
+   @|net/mcreator/vampire/Vampire.java|2214|2222|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+   @|net/mcreator/vampire/Vampire.java|2223|2239|newSimpleChannel|method|net.minecraftforge.fml.common.network.NetworkRegistry|newSimpleChannel|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;
+   @|net/mcreator/vampire/Vampire.java|2396|2409|IProxyVampire|class|net.mcreator.vampire.IProxyVampire|false
+   @|net/mcreator/vampire/Vampire.java|2257|2267|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|net/mcreator/vampire/Vampire.java|2268|2278|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|net/mcreator/vampire/Vampire.java|2324|2334|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|net/mcreator/vampire/Vampire.java|2396|2409|IProxyVampire|class|net.mcreator.vampire.IProxyVampire|false
+   @|net/mcreator/vampire/Vampire.java|2410|2415|proxy|field|net.mcreator.vampire.Vampire|proxy|
+   @|net/mcreator/vampire/Vampire.java|2456|2463|Vampire|class|net.mcreator.vampire.Vampire|false
+   @|net/mcreator/vampire/Vampire.java|2420|2432|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|net/mcreator/vampire/Vampire.java|2433|2438|MODID|field|net.mcreator.vampire.Vampire|MODID
+   @|net/mcreator/vampire/Vampire.java|2456|2463|Vampire|class|net.mcreator.vampire.Vampire|false
+   @|net/mcreator/vampire/Vampire.java|2464|2472|instance|field|net.mcreator.vampire.Vampire|instance|
+   @|net/mcreator/vampire/Vampire.java|2483|2498|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+   @|net/mcreator/vampire/Vampire.java|2483|2498|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+   @|net/mcreator/vampire/Vampire.java|2499|2507|elements|field|net.mcreator.vampire.Vampire|elements|
+   @|net/mcreator/vampire/Vampire.java|2514|2529|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|2601|2606|event|param|net.mcreator.vampire.Vampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|2536|2552|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|net/mcreator/vampire/Vampire.java|2567|2574|preInit|method|net.mcreator.vampire.Vampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|2575|2600|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|net/mcreator/vampire/Vampire.java|2613|2627|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|net/mcreator/vampire/Vampire.java|2628|2637|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|net/mcreator/vampire/Vampire.java|2638|2646|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|net/mcreator/vampire/Vampire.java|2657|2669|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|net/mcreator/vampire/Vampire.java|2670|2692|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|net/mcreator/vampire/Vampire.java|2693|2701|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|2710|2722|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|net/mcreator/vampire/Vampire.java|2723|2742|registerFuelHandler|method|net.minecraftforge.fml.common.registry.GameRegistry|registerFuelHandler|(Lnet/minecraftforge/fml/common/IFuelHandler;)V
+      @|net/mcreator/vampire/Vampire.java|2743|2751|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|2757|2772|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry|false
+      @|net/mcreator/vampire/Vampire.java|2773|2781|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+      @|net/mcreator/vampire/Vampire.java|2782|2800|registerGuiHandler|method|net.minecraftforge.fml.common.network.NetworkRegistry|registerGuiHandler|(Ljava/lang/Object;Lnet/minecraftforge/fml/common/network/IGuiHandler;)V
+      @|net/mcreator/vampire/Vampire.java|2811|2837|ElementsVampire.GuiHandler|class|net.mcreator.vampire.ElementsVampire.GuiHandler|false
+      @|net/mcreator/vampire/Vampire.java|2845|2853|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|2854|2861|preInit|method|net.mcreator.vampire.ElementsVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|2862|2867|event|param|net.mcreator.vampire.Vampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|2873|2887|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|net/mcreator/vampire/Vampire.java|2888|2897|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|net/mcreator/vampire/Vampire.java|2898|2906|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|net/mcreator/vampire/Vampire.java|2907|2915|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|2921|2929|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|2930|2941|getElements|method|net.mcreator.vampire.ElementsVampire|getElements|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|2944|2951|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|net/mcreator/vampire/Vampire.java|2963|2970|element|param|java.util.function.Consumer<net.mcreator.vampire.ElementsVampire.ModElement>|accept|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)V|element|-1
+      @|net/mcreator/vampire/Vampire.java|2971|2978|preInit|method|net.mcreator.vampire.ElementsVampire.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|2979|2984|event|param|net.mcreator.vampire.Vampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|2991|2996|proxy|field|net.mcreator.vampire.Vampire|proxy
+      @|net/mcreator/vampire/Vampire.java|2997|3004|preInit|method|net.mcreator.vampire.IProxyVampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3005|3010|event|param|net.mcreator.vampire.Vampire|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3081|3086|event|param|net.mcreator.vampire.Vampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3022|3038|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|net/mcreator/vampire/Vampire.java|3053|3057|init|method|net.mcreator.vampire.Vampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3058|3080|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|net/mcreator/vampire/Vampire.java|3093|3101|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|3102|3113|getElements|method|net.mcreator.vampire.ElementsVampire|getElements|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|3116|3123|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|net/mcreator/vampire/Vampire.java|3135|3142|element|param|java.util.function.Consumer<net.mcreator.vampire.ElementsVampire.ModElement>|accept|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)V|element|-1
+      @|net/mcreator/vampire/Vampire.java|3143|3147|init|method|net.mcreator.vampire.ElementsVampire.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3148|3153|event|param|net.mcreator.vampire.Vampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3160|3165|proxy|field|net.mcreator.vampire.Vampire|proxy
+      @|net/mcreator/vampire/Vampire.java|3166|3170|init|method|net.mcreator.vampire.IProxyVampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3171|3176|event|param|net.mcreator.vampire.Vampire|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3255|3260|event|param|net.mcreator.vampire.Vampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3188|3204|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|net/mcreator/vampire/Vampire.java|3219|3227|postInit|method|net.mcreator.vampire.Vampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3228|3254|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+      @|net/mcreator/vampire/Vampire.java|3267|3272|proxy|field|net.mcreator.vampire.Vampire|proxy
+      @|net/mcreator/vampire/Vampire.java|3273|3281|postInit|method|net.mcreator.vampire.IProxyVampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3282|3287|event|param|net.mcreator.vampire.Vampire|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3364|3369|event|param|net.mcreator.vampire.Vampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3299|3315|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|net/mcreator/vampire/Vampire.java|3330|3340|serverLoad|method|net.mcreator.vampire.Vampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3341|3363|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+      @|net/mcreator/vampire/Vampire.java|3376|3384|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|3385|3396|getElements|method|net.mcreator.vampire.ElementsVampire|getElements|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|3399|3406|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|net/mcreator/vampire/Vampire.java|3418|3425|element|param|java.util.function.Consumer<net.mcreator.vampire.ElementsVampire.ModElement>|accept|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)V|element|-1
+      @|net/mcreator/vampire/Vampire.java|3426|3436|serverLoad|method|net.mcreator.vampire.ElementsVampire.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3437|3442|event|param|net.mcreator.vampire.Vampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3449|3454|proxy|field|net.mcreator.vampire.Vampire|proxy
+      @|net/mcreator/vampire/Vampire.java|3455|3465|serverLoad|method|net.mcreator.vampire.IProxyVampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|net/mcreator/vampire/Vampire.java|3466|3471|event|param|net.mcreator.vampire.Vampire|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+   Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+   Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|3557|3562|event|param|net.mcreator.vampire.Vampire|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3483|3497|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|3512|3526|registerBlocks|method|net.mcreator.vampire.Vampire|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|3527|3549|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/Vampire.java|3550|3555|Block|class|net.minecraft.block.Block|false
+      @|net/mcreator/vampire/Vampire.java|3569|3574|event|param|net.mcreator.vampire.Vampire|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3575|3586|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|net/mcreator/vampire/Vampire.java|3589|3600|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|net/mcreator/vampire/Vampire.java|3601|3609|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|3610|3619|getBlocks|method|net.mcreator.vampire.ElementsVampire|getBlocks|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|3622|3628|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|3631|3634|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|3635|3643|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/Vampire.java|3645|3648|get|method|java.util.function.Supplier|get|()Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|3650|3657|toArray|method|java.util.stream.Stream|toArray|(Ljava/util/function/IntFunction;)[Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|3658|3663|Block|class|net.minecraft.block.Block|false
+   Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|3755|3760|event|param|net.mcreator.vampire.Vampire|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3683|3697|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|3712|3725|registerItems|method|net.mcreator.vampire.Vampire|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|3726|3748|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/Vampire.java|3749|3753|Item|class|net.minecraft.item.Item|false
+      @|net/mcreator/vampire/Vampire.java|3767|3772|event|param|net.mcreator.vampire.Vampire|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3773|3784|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|net/mcreator/vampire/Vampire.java|3787|3798|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|net/mcreator/vampire/Vampire.java|3799|3807|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|3808|3816|getItems|method|net.mcreator.vampire.ElementsVampire|getItems|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|3819|3825|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|3828|3831|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|3832|3840|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/Vampire.java|3842|3845|get|method|java.util.function.Supplier|get|()Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|3847|3854|toArray|method|java.util.stream.Stream|toArray|(Ljava/util/function/IntFunction;)[Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|3855|3859|Item|class|net.minecraft.item.Item|false
+   Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerBiomes(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|3953|3958|event|param|net.mcreator.vampire.Vampire|registerBiomes|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3879|3893|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|3908|3922|registerBiomes|method|net.mcreator.vampire.Vampire|registerBiomes|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|3923|3945|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/Vampire.java|3946|3951|Biome|class|net.minecraft.world.biome.Biome|false
+      @|net/mcreator/vampire/Vampire.java|3965|3970|event|param|net.mcreator.vampire.Vampire|registerBiomes|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|3971|3982|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|net/mcreator/vampire/Vampire.java|3985|3996|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|net/mcreator/vampire/Vampire.java|3997|4005|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|4006|4015|getBiomes|method|net.mcreator.vampire.ElementsVampire|getBiomes|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|4018|4024|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|4027|4030|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|4031|4039|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/Vampire.java|4041|4044|get|method|java.util.function.Supplier|get|()Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|4046|4053|toArray|method|java.util.stream.Stream|toArray|(Ljava/util/function/IntFunction;)[Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|4054|4059|Biome|class|net.minecraft.world.biome.Biome|false
+   Method End: registerBiomes(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4161|4166|event|param|net.mcreator.vampire.Vampire|registerEntities|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|4079|4093|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|4108|4124|registerEntities|method|net.mcreator.vampire.Vampire|registerEntities|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4125|4147|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/Vampire.java|4148|4159|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|net/mcreator/vampire/Vampire.java|4173|4178|event|param|net.mcreator.vampire.Vampire|registerEntities|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|4179|4190|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|net/mcreator/vampire/Vampire.java|4193|4204|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|net/mcreator/vampire/Vampire.java|4205|4213|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|4214|4225|getEntities|method|net.mcreator.vampire.ElementsVampire|getEntities|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|4228|4234|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|4237|4240|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|4241|4249|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/Vampire.java|4251|4254|get|method|java.util.function.Supplier|get|()Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|4256|4263|toArray|method|java.util.stream.Stream|toArray|(Ljava/util/function/IntFunction;)[Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|4264|4275|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+   Method End: registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4371|4376|event|param|net.mcreator.vampire.Vampire|registerPotions|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|4295|4309|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|4324|4339|registerPotions|method|net.mcreator.vampire.Vampire|registerPotions|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4340|4362|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/Vampire.java|4363|4369|Potion|class|net.minecraft.potion.Potion|false
+      @|net/mcreator/vampire/Vampire.java|4383|4388|event|param|net.mcreator.vampire.Vampire|registerPotions|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|4389|4400|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|net/mcreator/vampire/Vampire.java|4403|4414|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|net/mcreator/vampire/Vampire.java|4415|4423|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|4424|4434|getPotions|method|net.mcreator.vampire.ElementsVampire|getPotions|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|4437|4443|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|4446|4449|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|net/mcreator/vampire/Vampire.java|4450|4458|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/vampire/Vampire.java|4460|4463|get|method|java.util.function.Supplier|get|()Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|4465|4472|toArray|method|java.util.stream.Stream|toArray|(Ljava/util/function/IntFunction;)[Ljava/lang/Object;
+      @|net/mcreator/vampire/Vampire.java|4473|4479|Potion|class|net.minecraft.potion.Potion|false
+   Method End: registerPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4597|4602|event|param|net.mcreator.vampire.Vampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|4499|4513|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|4528|4542|registerSounds|method|net.mcreator.vampire.Vampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4543|4565|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|net/mcreator/vampire/Vampire.java|4566|4595|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|net/mcreator/vampire/Vampire.java|4609|4617|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|4618|4632|registerSounds|method|net.mcreator.vampire.ElementsVampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|net/mcreator/vampire/Vampire.java|4633|4638|event|param|net.mcreator.vampire.Vampire|registerSounds|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+   Method End: registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/Vampire.java|4738|4743|event|param|net.mcreator.vampire.Vampire|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/vampire/Vampire.java|4650|4664|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/mcreator/vampire/Vampire.java|4668|4676|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/vampire/Vampire.java|4677|4681|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/Vampire.java|4682|4688|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/vampire/Vampire.java|4704|4718|registerModels|method|net.mcreator.vampire.Vampire|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/Vampire.java|4719|4737|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/vampire/Vampire.java|4750|4758|elements|field|net.mcreator.vampire.Vampire|elements
+      @|net/mcreator/vampire/Vampire.java|4759|4770|getElements|method|net.mcreator.vampire.ElementsVampire|getElements|()Ljava/util/List;
+      @|net/mcreator/vampire/Vampire.java|4773|4780|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|net/mcreator/vampire/Vampire.java|4792|4799|element|param|java.util.function.Consumer<net.mcreator.vampire.ElementsVampire.ModElement>|accept|(Lnet/mcreator/vampire/ElementsVampire$ModElement;)V|element|-1
+      @|net/mcreator/vampire/Vampire.java|4800|4814|registerModels|method|net.mcreator.vampire.ElementsVampire.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/Vampire.java|4815|4820|event|param|net.mcreator.vampire.Vampire|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   @|net/mcreator/vampire/Vampire.java|4842|4855|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
+   @|net/mcreator/vampire/Vampire.java|4856|4877|enableUniversalBucket|method|net.minecraftforge.fluids.FluidRegistry|enableUniversalBucket|()V
+Class End  : net.mcreator.vampire.Vampire
+endProcessing "net/mcreator/vampire/Vampire.java"
+
+startProcessing "net/mcreator/vampire/VampireVariables.java" md5: d15549929df91f628b50892d15b063f1
+@|net/mcreator/vampire/VampireVariables.java|8|28|net.mcreator.vampire|package|net.mcreator.vampire|(file)
+Class Start: net.mcreator.vampire.VampireVariables
+   @|net/mcreator/vampire/VampireVariables.java|541|557|VampireVariables|class|net.mcreator.vampire.VampireVariables|false
+   Class Start: net.mcreator.vampire.VampireVariables.MapVariables
+      @|net/mcreator/vampire/VampireVariables.java|582|594|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+      @|net/mcreator/vampire/VampireVariables.java|603|617|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/VampireVariables.java|643|649|String|class|java.lang.String|false
+      @|net/mcreator/vampire/VampireVariables.java|643|649|String|class|java.lang.String|false
+      @|net/mcreator/vampire/VampireVariables.java|650|659|DATA_NAME|field|net.mcreator.vampire.VampireVariables.MapVariables|DATA_NAME|
+      Method Start: MapVariables()V
+         @|net/mcreator/vampire/VampireVariables.java|691|703|MapVariables|method|net.mcreator.vampire.VampireVariables.MapVariables|MapVariables|()V
+         @|net/mcreator/vampire/VampireVariables.java|718|727|DATA_NAME|field|net.mcreator.vampire.VampireVariables.MapVariables|DATA_NAME
+      Method End: MapVariables()V
+      Method Start: MapVariables(Ljava/lang/String;)V
+         @|net/mcreator/vampire/VampireVariables.java|767|768|s|param|net.mcreator.vampire.VampireVariables.MapVariables|MapVariables|(Ljava/lang/String;)V|s|0
+         @|net/mcreator/vampire/VampireVariables.java|747|759|MapVariables|method|net.mcreator.vampire.VampireVariables.MapVariables|MapVariables|(Ljava/lang/String;)V
+         @|net/mcreator/vampire/VampireVariables.java|760|766|String|class|java.lang.String|false
+         @|net/mcreator/vampire/VampireVariables.java|782|783|s|param|net.mcreator.vampire.VampireVariables.MapVariables|MapVariables|(Ljava/lang/String;)V|s|0
+      Method End: MapVariables(Ljava/lang/String;)V
+      Method Start: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+         @|net/mcreator/vampire/VampireVariables.java|848|851|nbt|param|net.mcreator.vampire.VampireVariables.MapVariables|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+         @|net/mcreator/vampire/VampireVariables.java|797|805|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|821|832|readFromNBT|method|net.minecraft.world.storage.WorldSavedData|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+         @|net/mcreator/vampire/VampireVariables.java|833|847|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      Method End: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+      Method Start: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+         @|net/mcreator/vampire/VampireVariables.java|926|929|nbt|param|net.mcreator.vampire.VampireVariables.MapVariables|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+         @|net/mcreator/vampire/VampireVariables.java|866|874|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|885|899|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+         @|net/mcreator/vampire/VampireVariables.java|900|910|writeToNBT|method|net.minecraft.world.storage.WorldSavedData|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+         @|net/mcreator/vampire/VampireVariables.java|911|925|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+         @|net/mcreator/vampire/VampireVariables.java|944|947|nbt|param|net.mcreator.vampire.VampireVariables.MapVariables|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      Method End: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      Method Start: syncData(Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|986|991|world|param|net.mcreator.vampire.VampireVariables.MapVariables|syncData|(Lnet/minecraft/world/World;)V|world|0
+         @|net/mcreator/vampire/VampireVariables.java|971|979|syncData|method|net.mcreator.vampire.VampireVariables.MapVariables|syncData|(Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|980|985|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/VampireVariables.java|1004|1013|markDirty|method|net.minecraft.world.storage.WorldSavedData|markDirty|()V
+         @|net/mcreator/vampire/VampireVariables.java|1025|1030|world|param|net.mcreator.vampire.VampireVariables.MapVariables|syncData|(Lnet/minecraft/world/World;)V|world|0
+         @|net/mcreator/vampire/VampireVariables.java|1031|1039|isRemote|field|net.minecraft.world.World|isRemote
+         @|net/mcreator/vampire/VampireVariables.java|1048|1055|Vampire|class|net.mcreator.vampire.Vampire|false
+         @|net/mcreator/vampire/VampireVariables.java|1056|1070|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+         @|net/mcreator/vampire/VampireVariables.java|1071|1083|sendToServer|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToServer|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+         @|net/mcreator/vampire/VampireVariables.java|1088|1113|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+         @|net/mcreator/vampire/VampireVariables.java|1143|1150|Vampire|class|net.mcreator.vampire.Vampire|false
+         @|net/mcreator/vampire/VampireVariables.java|1151|1165|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+         @|net/mcreator/vampire/VampireVariables.java|1166|1175|sendToAll|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToAll|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+         @|net/mcreator/vampire/VampireVariables.java|1180|1205|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      Method End: syncData(Lnet/minecraft/world/World;)V
+      Method Start: get(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;
+         @|net/mcreator/vampire/VampireVariables.java|1270|1275|world|param|net.mcreator.vampire.VampireVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;|world|0
+         @|net/mcreator/vampire/VampireVariables.java|1247|1259|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|1260|1263|get|method|net.mcreator.vampire.VampireVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;
+         @|net/mcreator/vampire/VampireVariables.java|1264|1269|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/VampireVariables.java|1283|1295|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|1308|1320|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|1322|1327|world|param|net.mcreator.vampire.VampireVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;|world|0
+         @|net/mcreator/vampire/VampireVariables.java|1328|1341|getMapStorage|method|net.minecraft.world.World|getMapStorage|()Lnet/minecraft/world/storage/MapStorage;
+         @|net/mcreator/vampire/VampireVariables.java|1344|1357|getOrLoadData|method|net.minecraft.world.storage.MapStorage|getOrLoadData|(Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;
+         @|net/mcreator/vampire/VampireVariables.java|1358|1370|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|1378|1387|DATA_NAME|field|net.mcreator.vampire.VampireVariables.MapVariables|DATA_NAME
+         @|net/mcreator/vampire/VampireVariables.java|1438|1450|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|1459|1464|world|param|net.mcreator.vampire.VampireVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;|world|0
+         @|net/mcreator/vampire/VampireVariables.java|1465|1478|getMapStorage|method|net.minecraft.world.World|getMapStorage|()Lnet/minecraft/world/storage/MapStorage;
+         @|net/mcreator/vampire/VampireVariables.java|1481|1488|setData|method|net.minecraft.world.storage.MapStorage|setData|(Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V
+         @|net/mcreator/vampire/VampireVariables.java|1489|1498|DATA_NAME|field|net.mcreator.vampire.VampireVariables.MapVariables|DATA_NAME
+      Method End: get(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$MapVariables;
+   Class End  : net.mcreator.vampire.VampireVariables.MapVariables
+   Class Start: net.mcreator.vampire.VampireVariables.WorldVariables
+      @|net/mcreator/vampire/VampireVariables.java|1571|1585|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+      @|net/mcreator/vampire/VampireVariables.java|1594|1608|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/VampireVariables.java|1634|1640|String|class|java.lang.String|false
+      @|net/mcreator/vampire/VampireVariables.java|1634|1640|String|class|java.lang.String|false
+      @|net/mcreator/vampire/VampireVariables.java|1641|1650|DATA_NAME|field|net.mcreator.vampire.VampireVariables.WorldVariables|DATA_NAME|
+      Method Start: WorldVariables()V
+         @|net/mcreator/vampire/VampireVariables.java|1684|1698|WorldVariables|method|net.mcreator.vampire.VampireVariables.WorldVariables|WorldVariables|()V
+         @|net/mcreator/vampire/VampireVariables.java|1713|1722|DATA_NAME|field|net.mcreator.vampire.VampireVariables.WorldVariables|DATA_NAME
+      Method End: WorldVariables()V
+      Method Start: WorldVariables(Ljava/lang/String;)V
+         @|net/mcreator/vampire/VampireVariables.java|1764|1765|s|param|net.mcreator.vampire.VampireVariables.WorldVariables|WorldVariables|(Ljava/lang/String;)V|s|0
+         @|net/mcreator/vampire/VampireVariables.java|1742|1756|WorldVariables|method|net.mcreator.vampire.VampireVariables.WorldVariables|WorldVariables|(Ljava/lang/String;)V
+         @|net/mcreator/vampire/VampireVariables.java|1757|1763|String|class|java.lang.String|false
+         @|net/mcreator/vampire/VampireVariables.java|1779|1780|s|param|net.mcreator.vampire.VampireVariables.WorldVariables|WorldVariables|(Ljava/lang/String;)V|s|0
+      Method End: WorldVariables(Ljava/lang/String;)V
+      Method Start: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+         @|net/mcreator/vampire/VampireVariables.java|1845|1848|nbt|param|net.mcreator.vampire.VampireVariables.WorldVariables|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+         @|net/mcreator/vampire/VampireVariables.java|1794|1802|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|1818|1829|readFromNBT|method|net.minecraft.world.storage.WorldSavedData|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+         @|net/mcreator/vampire/VampireVariables.java|1830|1844|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      Method End: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+      Method Start: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+         @|net/mcreator/vampire/VampireVariables.java|1923|1926|nbt|param|net.mcreator.vampire.VampireVariables.WorldVariables|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+         @|net/mcreator/vampire/VampireVariables.java|1863|1871|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|1882|1896|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+         @|net/mcreator/vampire/VampireVariables.java|1897|1907|writeToNBT|method|net.minecraft.world.storage.WorldSavedData|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+         @|net/mcreator/vampire/VampireVariables.java|1908|1922|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+         @|net/mcreator/vampire/VampireVariables.java|1941|1944|nbt|param|net.mcreator.vampire.VampireVariables.WorldVariables|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      Method End: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      Method Start: syncData(Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|1983|1988|world|param|net.mcreator.vampire.VampireVariables.WorldVariables|syncData|(Lnet/minecraft/world/World;)V|world|0
+         @|net/mcreator/vampire/VampireVariables.java|1968|1976|syncData|method|net.mcreator.vampire.VampireVariables.WorldVariables|syncData|(Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|1977|1982|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/VampireVariables.java|2001|2010|markDirty|method|net.minecraft.world.storage.WorldSavedData|markDirty|()V
+         @|net/mcreator/vampire/VampireVariables.java|2022|2027|world|param|net.mcreator.vampire.VampireVariables.WorldVariables|syncData|(Lnet/minecraft/world/World;)V|world|0
+         @|net/mcreator/vampire/VampireVariables.java|2028|2036|isRemote|field|net.minecraft.world.World|isRemote
+         @|net/mcreator/vampire/VampireVariables.java|2045|2052|Vampire|class|net.mcreator.vampire.Vampire|false
+         @|net/mcreator/vampire/VampireVariables.java|2053|2067|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+         @|net/mcreator/vampire/VampireVariables.java|2068|2080|sendToServer|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToServer|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+         @|net/mcreator/vampire/VampireVariables.java|2085|2110|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+         @|net/mcreator/vampire/VampireVariables.java|2140|2147|Vampire|class|net.mcreator.vampire.Vampire|false
+         @|net/mcreator/vampire/VampireVariables.java|2148|2162|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+         @|net/mcreator/vampire/VampireVariables.java|2163|2178|sendToDimension|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToDimension|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;I)V
+         @|net/mcreator/vampire/VampireVariables.java|2183|2208|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+         @|net/mcreator/vampire/VampireVariables.java|2219|2224|world|param|net.mcreator.vampire.VampireVariables.WorldVariables|syncData|(Lnet/minecraft/world/World;)V|world|0
+         @|net/mcreator/vampire/VampireVariables.java|2225|2233|provider|field|net.minecraft.world.World|provider
+         @|net/mcreator/vampire/VampireVariables.java|2234|2246|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      Method End: syncData(Lnet/minecraft/world/World;)V
+      Method Start: get(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;
+         @|net/mcreator/vampire/VampireVariables.java|2306|2311|world|param|net.mcreator.vampire.VampireVariables.WorldVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;|world|0
+         @|net/mcreator/vampire/VampireVariables.java|2281|2295|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|2296|2299|get|method|net.mcreator.vampire.VampireVariables.WorldVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;
+         @|net/mcreator/vampire/VampireVariables.java|2300|2305|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/VampireVariables.java|2319|2333|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|2346|2360|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|2362|2367|world|param|net.mcreator.vampire.VampireVariables.WorldVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;|world|0
+         @|net/mcreator/vampire/VampireVariables.java|2368|2386|getPerWorldStorage|method|net.minecraft.world.World|getPerWorldStorage|()Lnet/minecraft/world/storage/MapStorage;
+         @|net/mcreator/vampire/VampireVariables.java|2389|2402|getOrLoadData|method|net.minecraft.world.storage.MapStorage|getOrLoadData|(Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;
+         @|net/mcreator/vampire/VampireVariables.java|2403|2417|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|2425|2434|DATA_NAME|field|net.mcreator.vampire.VampireVariables.WorldVariables|DATA_NAME
+         @|net/mcreator/vampire/VampireVariables.java|2485|2499|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|2508|2513|world|param|net.mcreator.vampire.VampireVariables.WorldVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;|world|0
+         @|net/mcreator/vampire/VampireVariables.java|2514|2532|getPerWorldStorage|method|net.minecraft.world.World|getPerWorldStorage|()Lnet/minecraft/world/storage/MapStorage;
+         @|net/mcreator/vampire/VampireVariables.java|2535|2542|setData|method|net.minecraft.world.storage.MapStorage|setData|(Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V
+         @|net/mcreator/vampire/VampireVariables.java|2543|2552|DATA_NAME|field|net.mcreator.vampire.VampireVariables.WorldVariables|DATA_NAME
+      Method End: get(Lnet/minecraft/world/World;)Lnet/mcreator/vampire/VampireVariables$WorldVariables;
+   Class End  : net.mcreator.vampire.VampireVariables.WorldVariables
+   Class Start: net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler
+      @|net/mcreator/vampire/VampireVariables.java|2625|2657|WorldSavedDataSyncMessageHandler|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|false
+      @|net/mcreator/vampire/VampireVariables.java|2669|2684|IMessageHandler|class|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|false
+      @|net/mcreator/vampire/VampireVariables.java|2685|2710|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      @|net/mcreator/vampire/VampireVariables.java|2712|2720|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      Method Start: onMessage(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|net/mcreator/vampire/VampireVariables.java|2792|2799|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/vampire/VampireVariables.java|2816|2823|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/vampire/VampireVariables.java|2728|2736|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|2747|2755|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+         @|net/mcreator/vampire/VampireVariables.java|2756|2765|onMessage|method|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|onMessage|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|net/mcreator/vampire/VampireVariables.java|2766|2791|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+         @|net/mcreator/vampire/VampireVariables.java|2801|2815|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|false
+         @|net/mcreator/vampire/VampireVariables.java|2835|2842|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/vampire/VampireVariables.java|2843|2847|side|field|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|side
+         @|net/mcreator/vampire/VampireVariables.java|2851|2855|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|net/mcreator/vampire/VampireVariables.java|2856|2862|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+         @|net/mcreator/vampire/VampireVariables.java|2869|2876|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/vampire/VampireVariables.java|2877|2893|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+         @|net/mcreator/vampire/VampireVariables.java|2896|2902|player|field|net.minecraft.network.NetHandlerPlayServer|player
+         @|net/mcreator/vampire/VampireVariables.java|2903|2917|getServerWorld|method|net.minecraft.entity.player.EntityPlayerMP|getServerWorld|()Lnet/minecraft/world/WorldServer;
+         @|net/mcreator/vampire/VampireVariables.java|2928|2944|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+         @|net/mcreator/vampire/VampireVariables.java|2951|2959|syncData|method|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|2960|2967|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/vampire/VampireVariables.java|2969|2976|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/vampire/VampireVariables.java|2978|2985|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/vampire/VampireVariables.java|2986|3002|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+         @|net/mcreator/vampire/VampireVariables.java|3005|3011|player|field|net.minecraft.network.NetHandlerPlayServer|player
+         @|net/mcreator/vampire/VampireVariables.java|3012|3017|world|field|net.minecraft.entity.Entity|world
+         @|net/mcreator/vampire/VampireVariables.java|3035|3044|Minecraft|class|net.minecraft.client.Minecraft|false
+         @|net/mcreator/vampire/VampireVariables.java|3045|3057|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+         @|net/mcreator/vampire/VampireVariables.java|3060|3076|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+         @|net/mcreator/vampire/VampireVariables.java|3083|3091|syncData|method|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|3092|3099|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3101|3108|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|onMessage|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/vampire/VampireVariables.java|3110|3119|Minecraft|class|net.minecraft.client.Minecraft|false
+         @|net/mcreator/vampire/VampireVariables.java|3120|3132|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+         @|net/mcreator/vampire/VampireVariables.java|3135|3141|player|field|net.minecraft.client.Minecraft|player
+         @|net/mcreator/vampire/VampireVariables.java|3142|3147|world|field|net.minecraft.entity.Entity|world
+      Method End: onMessage(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+      Method Start: syncData(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|3226|3233|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3250|3257|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|context|1
+         @|net/mcreator/vampire/VampireVariables.java|3265|3270|world|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|world|2
+         @|net/mcreator/vampire/VampireVariables.java|3191|3199|syncData|method|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V
+         @|net/mcreator/vampire/VampireVariables.java|3200|3225|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+         @|net/mcreator/vampire/VampireVariables.java|3235|3249|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|false
+         @|net/mcreator/vampire/VampireVariables.java|3259|3264|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/VampireVariables.java|3282|3289|context|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|context|1
+         @|net/mcreator/vampire/VampireVariables.java|3290|3294|side|field|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|side
+         @|net/mcreator/vampire/VampireVariables.java|3298|3302|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|net/mcreator/vampire/VampireVariables.java|3303|3309|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+         @|net/mcreator/vampire/VampireVariables.java|3318|3325|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3326|3330|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|3331|3340|markDirty|method|net.minecraft.world.storage.WorldSavedData|markDirty|()V
+         @|net/mcreator/vampire/VampireVariables.java|3353|3360|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3361|3365|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type
+         @|net/mcreator/vampire/VampireVariables.java|3378|3385|Vampire|class|net.mcreator.vampire.Vampire|false
+         @|net/mcreator/vampire/VampireVariables.java|3386|3400|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+         @|net/mcreator/vampire/VampireVariables.java|3401|3410|sendToAll|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToAll|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+         @|net/mcreator/vampire/VampireVariables.java|3411|3418|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3437|3444|Vampire|class|net.mcreator.vampire.Vampire|false
+         @|net/mcreator/vampire/VampireVariables.java|3445|3459|PACKET_HANDLER|field|net.mcreator.vampire.Vampire|PACKET_HANDLER
+         @|net/mcreator/vampire/VampireVariables.java|3460|3475|sendToDimension|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToDimension|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;I)V
+         @|net/mcreator/vampire/VampireVariables.java|3476|3483|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3485|3490|world|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|world|2
+         @|net/mcreator/vampire/VampireVariables.java|3491|3499|provider|field|net.minecraft.world.World|provider
+         @|net/mcreator/vampire/VampireVariables.java|3500|3512|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+         @|net/mcreator/vampire/VampireVariables.java|3531|3538|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3539|3543|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type
+         @|net/mcreator/vampire/VampireVariables.java|3557|3562|world|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|world|2
+         @|net/mcreator/vampire/VampireVariables.java|3563|3576|getMapStorage|method|net.minecraft.world.World|getMapStorage|()Lnet/minecraft/world/storage/MapStorage;
+         @|net/mcreator/vampire/VampireVariables.java|3579|3586|setData|method|net.minecraft.world.storage.MapStorage|setData|(Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V
+         @|net/mcreator/vampire/VampireVariables.java|3587|3599|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|3600|3609|DATA_NAME|field|net.mcreator.vampire.VampireVariables.MapVariables|DATA_NAME
+         @|net/mcreator/vampire/VampireVariables.java|3611|3618|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3619|3623|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|3644|3649|world|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|world|2
+         @|net/mcreator/vampire/VampireVariables.java|3650|3668|getPerWorldStorage|method|net.minecraft.world.World|getPerWorldStorage|()Lnet/minecraft/world/storage/MapStorage;
+         @|net/mcreator/vampire/VampireVariables.java|3671|3678|setData|method|net.minecraft.world.storage.MapStorage|setData|(Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V
+         @|net/mcreator/vampire/VampireVariables.java|3679|3693|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|3694|3703|DATA_NAME|field|net.mcreator.vampire.VampireVariables.WorldVariables|DATA_NAME
+         @|net/mcreator/vampire/VampireVariables.java|3705|3712|message|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler|syncData|(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V|message|0
+         @|net/mcreator/vampire/VampireVariables.java|3713|3717|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+      Method End: syncData(Lnet/mcreator/vampire/VampireVariables$WorldSavedDataSyncMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;Lnet/minecraft/world/World;)V
+   Class End  : net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessageHandler
+   Class Start: net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage
+      @|net/mcreator/vampire/VampireVariables.java|3759|3784|WorldSavedDataSyncMessage|class|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|false
+      @|net/mcreator/vampire/VampireVariables.java|3796|3804|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      @|net/mcreator/vampire/VampireVariables.java|3821|3825|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type|
+      @|net/mcreator/vampire/VampireVariables.java|3837|3851|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/VampireVariables.java|3837|3851|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+      @|net/mcreator/vampire/VampireVariables.java|3852|3856|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data|
+      Method Start: WorldSavedDataSyncMessage()V
+         @|net/mcreator/vampire/VampireVariables.java|3868|3893|WorldSavedDataSyncMessage|method|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|WorldSavedDataSyncMessage|()V
+      Method End: WorldSavedDataSyncMessage()V
+      Method Start: WorldSavedDataSyncMessage(ILnet/minecraft/world/storage/WorldSavedData;)V
+         @|net/mcreator/vampire/VampireVariables.java|3945|3949|type|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|WorldSavedDataSyncMessage|(ILnet/minecraft/world/storage/WorldSavedData;)V|type|0
+         @|net/mcreator/vampire/VampireVariables.java|3966|3970|data|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|WorldSavedDataSyncMessage|(ILnet/minecraft/world/storage/WorldSavedData;)V|data|1
+         @|net/mcreator/vampire/VampireVariables.java|3915|3940|WorldSavedDataSyncMessage|method|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|WorldSavedDataSyncMessage|(ILnet/minecraft/world/storage/WorldSavedData;)V
+         @|net/mcreator/vampire/VampireVariables.java|3951|3965|WorldSavedData|class|net.minecraft.world.storage.WorldSavedData|false
+         @|net/mcreator/vampire/VampireVariables.java|3983|3987|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type
+         @|net/mcreator/vampire/VampireVariables.java|3990|3994|type|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|WorldSavedDataSyncMessage|(ILnet/minecraft/world/storage/WorldSavedData;)V|type|0
+         @|net/mcreator/vampire/VampireVariables.java|4005|4009|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|4012|4016|data|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|WorldSavedDataSyncMessage|(ILnet/minecraft/world/storage/WorldSavedData;)V|data|1
+      Method End: WorldSavedDataSyncMessage(ILnet/minecraft/world/storage/WorldSavedData;)V
+      Method Start: toBytes(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/vampire/VampireVariables.java|4085|4088|buf|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/vampire/VampireVariables.java|4029|4037|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|4053|4060|toBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/vampire/VampireVariables.java|4061|4084|io.netty.buffer.ByteBuf|class|io.netty.buffer.ByteBuf|false
+         @|net/mcreator/vampire/VampireVariables.java|4096|4099|buf|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/vampire/VampireVariables.java|4100|4108|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/vampire/VampireVariables.java|4114|4118|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type
+         @|net/mcreator/vampire/VampireVariables.java|4125|4137|ByteBufUtils|class|net.minecraftforge.fml.common.network.ByteBufUtils|false
+         @|net/mcreator/vampire/VampireVariables.java|4138|4146|writeTag|method|net.minecraftforge.fml.common.network.ByteBufUtils|writeTag|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
+         @|net/mcreator/vampire/VampireVariables.java|4147|4150|buf|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/vampire/VampireVariables.java|4157|4161|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|4162|4172|writeToNBT|method|net.minecraft.world.storage.WorldSavedData|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+         @|net/mcreator/vampire/VampireVariables.java|4177|4191|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      Method End: toBytes(Lio/netty/buffer/ByteBuf;)V
+      Method Start: fromBytes(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/vampire/VampireVariables.java|4266|4269|buf|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/vampire/VampireVariables.java|4208|4216|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/VampireVariables.java|4232|4241|fromBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/vampire/VampireVariables.java|4242|4265|io.netty.buffer.ByteBuf|class|io.netty.buffer.ByteBuf|false
+         @|net/mcreator/vampire/VampireVariables.java|4282|4286|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type
+         @|net/mcreator/vampire/VampireVariables.java|4289|4292|buf|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/vampire/VampireVariables.java|4293|4300|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/vampire/VampireVariables.java|4317|4321|type|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|type
+         @|net/mcreator/vampire/VampireVariables.java|4338|4342|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|4349|4361|MapVariables|class|net.mcreator.vampire.VampireVariables.MapVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|4384|4388|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|4395|4409|WorldVariables|class|net.mcreator.vampire.VampireVariables.WorldVariables|false
+         @|net/mcreator/vampire/VampireVariables.java|4422|4426|data|field|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|data
+         @|net/mcreator/vampire/VampireVariables.java|4427|4438|readFromNBT|method|net.minecraft.world.storage.WorldSavedData|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+         @|net/mcreator/vampire/VampireVariables.java|4439|4451|ByteBufUtils|class|net.minecraftforge.fml.common.network.ByteBufUtils|false
+         @|net/mcreator/vampire/VampireVariables.java|4452|4459|readTag|method|net.minecraftforge.fml.common.network.ByteBufUtils|readTag|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
+         @|net/mcreator/vampire/VampireVariables.java|4460|4463|buf|param|net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      Method End: fromBytes(Lio/netty/buffer/ByteBuf;)V
+   Class End  : net.mcreator.vampire.VampireVariables.WorldSavedDataSyncMessage
+Class End  : net.mcreator.vampire.VampireVariables
+endProcessing "net/mcreator/vampire/VampireVariables.java"
+
+startProcessing "net/mcreator/vampire/creativetab/TabVampiretab.java" md5: 375a331fc5f436f1f286072a9e1c0581
+@|net/mcreator/vampire/creativetab/TabVampiretab.java|10|42|net.mcreator.vampire.creativetab|package|net.mcreator.vampire.creativetab|(file)
+Class Start: net.mcreator.vampire.creativetab.TabVampiretab
+   @|net/mcreator/vampire/creativetab/TabVampiretab.java|330|360|ElementsVampire.ModElement.Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+   @|net/mcreator/vampire/creativetab/TabVampiretab.java|375|388|TabVampiretab|class|net.mcreator.vampire.creativetab.TabVampiretab|false
+   @|net/mcreator/vampire/creativetab/TabVampiretab.java|397|423|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   Method Start: TabVampiretab(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|465|473|instance|param|net.mcreator.vampire.creativetab.TabVampiretab|TabVampiretab|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|435|448|TabVampiretab|method|net.mcreator.vampire.creativetab.TabVampiretab|TabVampiretab|(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|449|464|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|486|494|instance|param|net.mcreator.vampire.creativetab.TabVampiretab|TabVampiretab|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+   Method End: TabVampiretab(Lnet/mcreator/vampire/ElementsVampire;)V
+   Method Start: initElements()V
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|509|517|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|532|544|initElements|method|net.mcreator.vampire.ElementsVampire.ModElement|initElements|()V
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|552|555|tab|field|net.mcreator.vampire.creativetab.TabVampiretab|tab
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|562|574|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      Anon Class Start: net.mcreator.vampire.creativetab.TabVampiretab$1
+         Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|599|607|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|608|612|Side|class|net.minecraftforge.fml.relauncher.Side|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|613|619|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|626|634|Override|class|java.lang.Override|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|646|655|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|656|670|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|691|700|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|701|709|ItemVamp|class|net.mcreator.vampire.item.ItemVamp|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|710|715|block|field|net.mcreator.vampire.item.ItemVamp|block
+         Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         Method Start: hasSearchBar()Z
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|742|750|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|751|755|Side|class|net.minecraftforge.fml.relauncher.Side|false
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|756|762|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+            @|net/mcreator/vampire/creativetab/TabVampiretab.java|783|795|hasSearchBar|method|net.minecraft.creativetab.CreativeTabs|hasSearchBar|()Z
+         Method End: hasSearchBar()Z
+      Anon Class End: net.mcreator.vampire.creativetab.TabVampiretab$1
+      @|net/mcreator/vampire/creativetab/TabVampiretab.java|829|851|setBackgroundImageName|method|net.minecraft.creativetab.CreativeTabs|setBackgroundImageName|(Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;
+   Method End: initElements()V
+   @|net/mcreator/vampire/creativetab/TabVampiretab.java|892|904|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+   @|net/mcreator/vampire/creativetab/TabVampiretab.java|892|904|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+   @|net/mcreator/vampire/creativetab/TabVampiretab.java|905|908|tab|field|net.mcreator.vampire.creativetab.TabVampiretab|tab|
+Class End  : net.mcreator.vampire.creativetab.TabVampiretab
+endProcessing "net/mcreator/vampire/creativetab/TabVampiretab.java"
+
+startProcessing "net/mcreator/vampire/item/ItemVamfang.java" md5: 4fb6d3f88af0393c267bb70122491eea
+@|net/mcreator/vampire/item/ItemVamfang.java|10|35|net.mcreator.vampire.item|package|net.mcreator.vampire.item|(file)
+Class Start: net.mcreator.vampire.item.ItemVamfang
+   @|net/mcreator/vampire/item/ItemVamfang.java|723|753|ElementsVampire.ModElement.Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+   @|net/mcreator/vampire/item/ItemVamfang.java|768|779|ItemVamfang|class|net.mcreator.vampire.item.ItemVamfang|false
+   @|net/mcreator/vampire/item/ItemVamfang.java|788|814|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   @|net/mcreator/vampire/item/ItemVamfang.java|887|891|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/item/ItemVamfang.java|820|845|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/vampire/item/ItemVamfang.java|887|891|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/item/ItemVamfang.java|892|897|block|field|net.mcreator.vampire.item.ItemVamfang|block|
+   Method Start: ItemVamfang(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/item/ItemVamfang.java|943|951|instance|param|net.mcreator.vampire.item.ItemVamfang|ItemVamfang|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+      @|net/mcreator/vampire/item/ItemVamfang.java|915|926|ItemVamfang|method|net.mcreator.vampire.item.ItemVamfang|ItemVamfang|(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/item/ItemVamfang.java|927|942|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|964|972|instance|param|net.mcreator.vampire.item.ItemVamfang|ItemVamfang|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+   Method End: ItemVamfang(Lnet/mcreator/vampire/ElementsVampire;)V
+   Method Start: initElements()V
+      @|net/mcreator/vampire/item/ItemVamfang.java|987|995|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1010|1022|initElements|method|net.mcreator.vampire.ElementsVampire.ModElement|initElements|()V
+      @|net/mcreator/vampire/item/ItemVamfang.java|1030|1038|elements|field|net.mcreator.vampire.ElementsVampire.ModElement|elements
+      @|net/mcreator/vampire/item/ItemVamfang.java|1039|1044|items|field|net.mcreator.vampire.ElementsVampire|items
+      @|net/mcreator/vampire/item/ItemVamfang.java|1045|1048|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/vampire/item/ItemVamfang.java|1059|1069|ItemCustom|class|net.mcreator.vampire.item.ItemVamfang.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/item/ItemVamfang.java|1165|1170|event|param|net.mcreator.vampire.item.ItemVamfang|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/vampire/item/ItemVamfang.java|1083|1091|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1092|1096|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1097|1103|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/vampire/item/ItemVamfang.java|1108|1116|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1131|1145|registerModels|method|net.mcreator.vampire.ElementsVampire.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/item/ItemVamfang.java|1146|1164|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1177|1188|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1189|1219|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/vampire/item/ItemVamfang.java|1220|1225|block|field|net.mcreator.vampire.item.ItemVamfang|block
+      @|net/mcreator/vampire/item/ItemVamfang.java|1234|1255|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.vampire.item.ItemVamfang.ItemCustom
+      @|net/mcreator/vampire/item/ItemVamfang.java|1316|1326|ItemCustom|class|net.mcreator.vampire.item.ItemVamfang.ItemCustom|false
+      @|net/mcreator/vampire/item/ItemVamfang.java|1335|1339|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/vampire/item/ItemVamfang.java|1352|1362|ItemCustom|method|net.mcreator.vampire.item.ItemVamfang.ItemCustom|ItemCustom|()V
+         @|net/mcreator/vampire/item/ItemVamfang.java|1371|1383|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVamfang.java|1392|1404|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/vampire/item/ItemVamfang.java|1415|1433|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVamfang.java|1450|1465|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/vampire/item/ItemVamfang.java|1482|1496|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVamfang.java|1497|1510|TabVampiretab|class|net.mcreator.vampire.creativetab.TabVampiretab|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1511|1514|tab|field|net.mcreator.vampire.creativetab.TabVampiretab|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/vampire/item/ItemVamfang.java|1528|1536|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1551|1572|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/item/ItemVamfang.java|1657|1666|itemstack|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/vampire/item/ItemVamfang.java|1602|1610|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1625|1646|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/item/ItemVamfang.java|1647|1656|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/vampire/item/ItemVamfang.java|1746|1759|par1ItemStack|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/vampire/item/ItemVamfang.java|1773|1782|par2Block|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/vampire/item/ItemVamfang.java|1695|1703|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1720|1735|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/vampire/item/ItemVamfang.java|1736|1745|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1761|1772|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      Method Start: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVamfang.java|1861|1870|itemstack|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|itemstack|0
+         @|net/mcreator/vampire/item/ItemVamfang.java|1878|1883|world|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|world|1
+         @|net/mcreator/vampire/item/ItemVamfang.java|1898|1902|list|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamfang.java|1917|1921|flag|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flag|3
+         @|net/mcreator/vampire/item/ItemVamfang.java|1812|1820|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1836|1850|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVamfang.java|1851|1860|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1872|1877|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1885|1889|List|class|java.util.List|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1890|1896|String|class|java.lang.String|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1904|1916|ITooltipFlag|class|net.minecraft.client.util.ITooltipFlag|false
+         @|net/mcreator/vampire/item/ItemVamfang.java|1935|1949|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVamfang.java|1950|1959|itemstack|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|itemstack|0
+         @|net/mcreator/vampire/item/ItemVamfang.java|1961|1966|world|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|world|1
+         @|net/mcreator/vampire/item/ItemVamfang.java|1968|1972|list|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamfang.java|1974|1978|flag|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flag|3
+         @|net/mcreator/vampire/item/ItemVamfang.java|1985|1989|list|param|net.mcreator.vampire.item.ItemVamfang.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamfang.java|1990|1993|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      Method End: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+   Class End  : net.mcreator.vampire.item.ItemVamfang.ItemCustom
+Class End  : net.mcreator.vampire.item.ItemVamfang
+endProcessing "net/mcreator/vampire/item/ItemVamfang.java"
+
+startProcessing "net/mcreator/vampire/item/ItemVamp.java" md5: 48c5a26078191ddf90c905c88d8ddd78
+@|net/mcreator/vampire/item/ItemVamp.java|10|35|net.mcreator.vampire.item|package|net.mcreator.vampire.item|(file)
+Class Start: net.mcreator.vampire.item.ItemVamp
+   @|net/mcreator/vampire/item/ItemVamp.java|723|753|ElementsVampire.ModElement.Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+   @|net/mcreator/vampire/item/ItemVamp.java|768|776|ItemVamp|class|net.mcreator.vampire.item.ItemVamp|false
+   @|net/mcreator/vampire/item/ItemVamp.java|785|811|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   @|net/mcreator/vampire/item/ItemVamp.java|881|885|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/item/ItemVamp.java|817|842|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/vampire/item/ItemVamp.java|881|885|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/item/ItemVamp.java|886|891|block|field|net.mcreator.vampire.item.ItemVamp|block|
+   Method Start: ItemVamp(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/item/ItemVamp.java|934|942|instance|param|net.mcreator.vampire.item.ItemVamp|ItemVamp|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+      @|net/mcreator/vampire/item/ItemVamp.java|909|917|ItemVamp|method|net.mcreator.vampire.item.ItemVamp|ItemVamp|(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/item/ItemVamp.java|918|933|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/item/ItemVamp.java|955|963|instance|param|net.mcreator.vampire.item.ItemVamp|ItemVamp|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+   Method End: ItemVamp(Lnet/mcreator/vampire/ElementsVampire;)V
+   Method Start: initElements()V
+      @|net/mcreator/vampire/item/ItemVamp.java|978|986|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1001|1013|initElements|method|net.mcreator.vampire.ElementsVampire.ModElement|initElements|()V
+      @|net/mcreator/vampire/item/ItemVamp.java|1021|1029|elements|field|net.mcreator.vampire.ElementsVampire.ModElement|elements
+      @|net/mcreator/vampire/item/ItemVamp.java|1030|1035|items|field|net.mcreator.vampire.ElementsVampire|items
+      @|net/mcreator/vampire/item/ItemVamp.java|1036|1039|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/vampire/item/ItemVamp.java|1050|1060|ItemCustom|class|net.mcreator.vampire.item.ItemVamp.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/item/ItemVamp.java|1156|1161|event|param|net.mcreator.vampire.item.ItemVamp|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/vampire/item/ItemVamp.java|1074|1082|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1083|1087|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1088|1094|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/vampire/item/ItemVamp.java|1099|1107|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1122|1136|registerModels|method|net.mcreator.vampire.ElementsVampire.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/item/ItemVamp.java|1137|1155|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1168|1179|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1180|1210|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/vampire/item/ItemVamp.java|1211|1216|block|field|net.mcreator.vampire.item.ItemVamp|block
+      @|net/mcreator/vampire/item/ItemVamp.java|1225|1246|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.vampire.item.ItemVamp.ItemCustom
+      @|net/mcreator/vampire/item/ItemVamp.java|1304|1314|ItemCustom|class|net.mcreator.vampire.item.ItemVamp.ItemCustom|false
+      @|net/mcreator/vampire/item/ItemVamp.java|1323|1327|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/vampire/item/ItemVamp.java|1340|1350|ItemCustom|method|net.mcreator.vampire.item.ItemVamp.ItemCustom|ItemCustom|()V
+         @|net/mcreator/vampire/item/ItemVamp.java|1359|1371|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVamp.java|1380|1392|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/vampire/item/ItemVamp.java|1402|1420|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVamp.java|1434|1449|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/vampire/item/ItemVamp.java|1463|1477|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVamp.java|1478|1491|TabVampiretab|class|net.mcreator.vampire.creativetab.TabVampiretab|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1492|1495|tab|field|net.mcreator.vampire.creativetab.TabVampiretab|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/vampire/item/ItemVamp.java|1509|1517|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1532|1553|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/item/ItemVamp.java|1638|1647|itemstack|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/vampire/item/ItemVamp.java|1583|1591|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1606|1627|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/item/ItemVamp.java|1628|1637|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/vampire/item/ItemVamp.java|1727|1740|par1ItemStack|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/vampire/item/ItemVamp.java|1754|1763|par2Block|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/vampire/item/ItemVamp.java|1676|1684|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1701|1716|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/vampire/item/ItemVamp.java|1717|1726|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1742|1753|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      Method Start: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVamp.java|1842|1851|itemstack|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|itemstack|0
+         @|net/mcreator/vampire/item/ItemVamp.java|1859|1864|world|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|world|1
+         @|net/mcreator/vampire/item/ItemVamp.java|1879|1883|list|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamp.java|1898|1902|flag|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flag|3
+         @|net/mcreator/vampire/item/ItemVamp.java|1793|1801|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1817|1831|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVamp.java|1832|1841|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1853|1858|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1866|1870|List|class|java.util.List|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1871|1877|String|class|java.lang.String|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1885|1897|ITooltipFlag|class|net.minecraft.client.util.ITooltipFlag|false
+         @|net/mcreator/vampire/item/ItemVamp.java|1916|1930|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVamp.java|1931|1940|itemstack|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|itemstack|0
+         @|net/mcreator/vampire/item/ItemVamp.java|1942|1947|world|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|world|1
+         @|net/mcreator/vampire/item/ItemVamp.java|1949|1953|list|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamp.java|1955|1959|flag|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flag|3
+         @|net/mcreator/vampire/item/ItemVamp.java|1966|1970|list|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamp.java|1971|1974|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|net/mcreator/vampire/item/ItemVamp.java|2006|2010|list|param|net.mcreator.vampire.item.ItemVamp.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVamp.java|2011|2014|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      Method End: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+   Class End  : net.mcreator.vampire.item.ItemVamp.ItemCustom
+Class End  : net.mcreator.vampire.item.ItemVamp
+endProcessing "net/mcreator/vampire/item/ItemVamp.java"
+
+startProcessing "net/mcreator/vampire/item/ItemVampireTooth.java" md5: 8df7518ce9fd7ea86e942f87299d83f5
+@|net/mcreator/vampire/item/ItemVampireTooth.java|10|35|net.mcreator.vampire.item|package|net.mcreator.vampire.item|(file)
+Class Start: net.mcreator.vampire.item.ItemVampireTooth
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|723|753|ElementsVampire.ModElement.Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|768|784|ItemVampireTooth|class|net.mcreator.vampire.item.ItemVampireTooth|false
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|793|819|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|897|901|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|825|850|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|897|901|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/vampire/item/ItemVampireTooth.java|902|907|block|field|net.mcreator.vampire.item.ItemVampireTooth|block|
+   Method Start: ItemVampireTooth(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|958|966|instance|param|net.mcreator.vampire.item.ItemVampireTooth|ItemVampireTooth|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|925|941|ItemVampireTooth|method|net.mcreator.vampire.item.ItemVampireTooth|ItemVampireTooth|(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|942|957|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|979|987|instance|param|net.mcreator.vampire.item.ItemVampireTooth|ItemVampireTooth|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+   Method End: ItemVampireTooth(Lnet/mcreator/vampire/ElementsVampire;)V
+   Method Start: initElements()V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1002|1010|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1025|1037|initElements|method|net.mcreator.vampire.ElementsVampire.ModElement|initElements|()V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1045|1053|elements|field|net.mcreator.vampire.ElementsVampire.ModElement|elements
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1054|1059|items|field|net.mcreator.vampire.ElementsVampire|items
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1060|1063|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1074|1084|ItemCustom|class|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1180|1185|event|param|net.mcreator.vampire.item.ItemVampireTooth|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1098|1106|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1107|1111|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1112|1118|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1123|1131|Override|class|java.lang.Override|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1146|1160|registerModels|method|net.mcreator.vampire.ElementsVampire.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1161|1179|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1192|1203|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1204|1234|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1235|1240|block|field|net.mcreator.vampire.item.ItemVampireTooth|block
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1249|1270|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.vampire.item.ItemVampireTooth.ItemCustom
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1336|1346|ItemCustom|class|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|false
+      @|net/mcreator/vampire/item/ItemVampireTooth.java|1355|1359|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1372|1382|ItemCustom|method|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|ItemCustom|()V
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1391|1403|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1412|1424|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1435|1453|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1475|1490|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1512|1526|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1527|1540|TabVampiretab|class|net.mcreator.vampire.creativetab.TabVampiretab|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1541|1544|tab|field|net.mcreator.vampire.creativetab.TabVampiretab|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1558|1566|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1581|1602|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1687|1696|itemstack|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1632|1640|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1655|1676|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1677|1686|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1776|1789|par1ItemStack|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1803|1812|par2Block|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1725|1733|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1750|1765|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1766|1775|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1791|1802|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      Method Start: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1891|1900|itemstack|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|itemstack|0
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1908|1913|world|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|world|1
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1928|1932|list|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1947|1951|flag|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flag|3
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1842|1850|Override|class|java.lang.Override|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1866|1880|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1881|1890|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1902|1907|World|class|net.minecraft.world.World|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1915|1919|List|class|java.util.List|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1920|1926|String|class|java.lang.String|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1934|1946|ITooltipFlag|class|net.minecraft.client.util.ITooltipFlag|false
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1965|1979|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1980|1989|itemstack|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|itemstack|0
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1991|1996|world|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|world|1
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|1998|2002|list|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|2004|2008|flag|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flag|3
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|2015|2019|list|param|net.mcreator.vampire.item.ItemVampireTooth.ItemCustom|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|list|2
+         @|net/mcreator/vampire/item/ItemVampireTooth.java|2020|2023|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      Method End: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+   Class End  : net.mcreator.vampire.item.ItemVampireTooth.ItemCustom
+Class End  : net.mcreator.vampire.item.ItemVampireTooth
+endProcessing "net/mcreator/vampire/item/ItemVampireTooth.java"
+
+startProcessing "net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java" md5: 7fcaad3f33e067bdf278f2d783e9bfd4
+@|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|8|38|net.mcreator.vampire.procedure|package|net.mcreator.vampire.procedure|(file)
+Class Start: net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir
+   @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|540|570|ElementsVampire.ModElement.Tag|class|net.mcreator.vampire.ElementsVampire.ModElement.Tag|false
+   @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|585|615|ProcedureVampRightClickedInAir|class|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|false
+   @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|624|650|ElementsVampire.ModElement|class|net.mcreator.vampire.ElementsVampire.ModElement|false
+   Method Start: ProcedureVampRightClickedInAir(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|709|717|instance|param|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|ProcedureVampRightClickedInAir|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|662|692|ProcedureVampRightClickedInAir|method|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|ProcedureVampRightClickedInAir|(Lnet/mcreator/vampire/ElementsVampire;)V
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|693|708|ElementsVampire|class|net.mcreator.vampire.ElementsVampire|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|730|738|instance|param|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|ProcedureVampRightClickedInAir|(Lnet/mcreator/vampire/ElementsVampire;)V|instance|0
+   Method End: ProcedureVampRightClickedInAir(Lnet/mcreator/vampire/ElementsVampire;)V
+   Method Start: executeProcedure(Ljava/util/HashMap;)V
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|822|834|dependencies|param|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|771|787|executeProcedure|method|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|788|805|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|806|812|String|class|java.lang.String|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|814|820|Object|class|java.lang.Object|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|845|857|dependencies|param|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|858|861|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|887|893|System|class|java.lang.System|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|894|897|err|field|java.lang.System|err
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|898|905|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1000|1006|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1017|1023|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1025|1037|dependencies|param|net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1038|1041|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1078|1092|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1100|1111|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1121|1136|MinecraftServer|class|net.minecraft.server.MinecraftServer|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1140|1154|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1164|1172|mcServer|field|net.minecraft.entity.player.EntityPlayerMP|mcServer
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1174|1195|getAdvancementManager|method|net.minecraft.server.MinecraftServer|getAdvancementManager|()Lnet/minecraft/advancements/AdvancementManager;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1205|1219|getAdvancement|method|net.minecraft.advancements.AdvancementManager|getAdvancement|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/advancements/Advancement;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1224|1240|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1266|1285|AdvancementProgress|class|net.minecraft.advancements.AdvancementProgress|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1294|1308|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1318|1333|getAdvancements|method|net.minecraft.entity.player.EntityPlayerMP|getAdvancements|()Lnet/minecraft/advancements/PlayerAdvancements;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1336|1347|getProgress|method|net.minecraft.advancements.PlayerAdvancements|getProgress|(Lnet/minecraft/advancements/Advancement;)Lnet/minecraft/advancements/AdvancementProgress;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1368|1374|isDone|method|net.minecraft.advancements.AdvancementProgress|isDone|()Z
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1385|1393|Iterator|class|java.util.Iterator|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1410|1429|getRemaningCriteria|method|net.minecraft.advancements.AdvancementProgress|getRemaningCriteria|()Ljava/lang/Iterable;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1432|1440|iterator|method|java.lang.Iterable|iterator|()Ljava/util/Iterator;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1466|1473|hasNext|method|java.util.Iterator|hasNext|()Z
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1485|1491|String|class|java.lang.String|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1506|1512|String|class|java.lang.String|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1524|1528|next|method|java.util.Iterator|next|()Ljava/lang/Object;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1540|1554|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1564|1579|getAdvancements|method|net.minecraft.entity.player.EntityPlayerMP|getAdvancements|()Lnet/minecraft/advancements/PlayerAdvancements;
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1582|1596|grantCriterion|method|net.minecraft.advancements.PlayerAdvancements|grantCriterion|(Lnet/minecraft/advancements/Advancement;Ljava/lang/String;)Z
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1659|1671|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1679|1691|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1701|1710|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1711|1729|clearMatchingItems|method|net.minecraft.entity.player.InventoryPlayer|clearMatchingItems|(Lnet/minecraft/item/Item;IILnet/minecraft/nbt/NBTTagCompound;)I
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1734|1743|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1744|1752|ItemVamp|class|net.mcreator.vampire.item.ItemVamp|false
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1753|1758|block|field|net.mcreator.vampire.item.ItemVamp|block
+      @|net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java|1771|1778|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+   Method End: executeProcedure(Ljava/util/HashMap;)V
+Class End  : net.mcreator.vampire.procedure.ProcedureVampRightClickedInAir
+endProcessing "net/mcreator/vampire/procedure/ProcedureVampRightClickedInAir.java"
+
